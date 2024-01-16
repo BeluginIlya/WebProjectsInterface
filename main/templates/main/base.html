@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .brand {
+            /* margin-right: auto; */
+            justify-content: flex-start;
+        }
+
+        .nav-links {
+            display: flex;
+            margin: auto;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333; /* Цвет тёмно-серый */
+            min-width: 140px;
+            box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            padding: 0px; /* Добавлено для отступов внутри выпадающего контекста */
+        }
+
+        .dropdown-content a {
+            color: #fff; /* Цвет текста в выпадающем списке */
+            padding: 12px 8px;
+            text-decoration: none;
+            display: block;
+            margin: 5;
+            font-size: 14px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555; /* Цвет фона при наведении */
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+    <title>DSK Навигация</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="brand">DСK</div>
+        <div class="nav-links">
+            <a href="#">Главная</a>
+            <div class="dropdown">
+                <a href="#">КПМ-260</a>
+                <div class="dropdown-content">
+                    <a href="{% url 'main:kpm_line_1' %}">Линия №1</a>
+                    <a href="#">Другие линии</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Ваш контент здесь -->
+
+</body>
+
+</html>
