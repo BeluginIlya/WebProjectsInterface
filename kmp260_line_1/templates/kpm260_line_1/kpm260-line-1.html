@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,14 +50,20 @@
             text-align: left;
         }
 
+        tr.print-row {
+            background-color: lightblue; /* Цвет фона для выделенной строки при печати */
+            font-weight: bold; /* Жирный шрифт для выделенной строки при печати */
+        }
+
+        tr.selected-row {
+            border: 5px solid red; /* Красная обводка для выделенной строки */
+            border-radius: 5px; /* Задаем гладкие углы */
+            font-weight: bold; /* Жирный шрифт для выделенной строки */
+        }
+
         th {
             background-color: #333;
             color: #fff;
-        }
-
-        /* Стиль для красной рамки вокруг 5-й строки */
-        tr.red-border {
-            border: 3px solid red;
         }
 
         /* Стиль для кружочка */
@@ -67,16 +75,28 @@
             display: inline-block;
             margin-right: 10px;
         }
+
+        .check-mark::before {
+            content: '\2713'; /* Юникод символ галочки */
+            color: green;
+        }
+
+        /* Стиль для крестика */
+        .cross-mark::before {
+            content: '\2717'; /* Юникод символ крестика */
+            color: red;
+        }
     </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
 
     <div class="header">
         <div class="info-header-1">
-            <p>Технологический пост: ТП 1</p>
-            <p>Статус принтера: Ожидает</p>
-            <p>Текущий номер палеты: $$</p>
+            <p id="tech-post">Технологический пост: ТП 1</p>
+            <p id="printer-status">Статус принтера: -</p>
+            <p id="current-pal">Текущий номер палеты: -</p>
         </div>
         <div class="info-header-2">
             <p></p>
@@ -112,7 +132,133 @@
             </tbody>
         </table>
     </div>
+    <script>
+    var selectedRow = null;
 
+
+    function updateTable(data) {
+        var tableBody = $('#history-table tbody');
+        tableBody.empty(); // Очищаем текущие данные в теле таблицы
+
+        // Добавляем новые данные
+        data.forEach(function (record) {
+            var newRow = $('<tr>');
+            newRow.append('<td>' + record.PalNo + '</td>');
+            newRow.append('<td>' + record.NumProd + '</td>');
+            newRow.append('<td>' + record.Timestamp + '</td>');
+            newRow.append('<td>' + record.Barcode + '</td>');
+            newRow.append('<td>' + record.Product + '</td>');
+
+            // Создаем элемент <span> для столбца "Статус"
+            var statusCell = $('<td>');
+            var statusIcon = $('<span>');
+
+            // Проверяем значение в столбце "Статус" и устанавливаем соответствующий класс и текст
+            if (record.StatusPrint) {
+                statusIcon.addClass('check-mark'); // класс для галочки
+            } else {
+                statusIcon.addClass('cross-mark'); // класс для крестика
+            }
+
+            statusCell.append(statusIcon);
+            newRow.append(statusCell);
+
+            // Проверяем условие для выделения строки
+            if (selectedRow && selectedRow.PalNo === record.PalNo && selectedRow.NumProd === record.NumProd) {
+                newRow.addClass('selected-row');
+            };
+
+            tableBody.append(newRow);
+        });
+    }
+
+// Функция для подключения и переподключения веб-сокета
+    function connectWebSocket() {
+        var socket = new WebSocket('ws://192.168.5.53:8000/ws/data_updates/');
+
+        socket.onopen = function (event) {
+            console.log('WebSocket connection opened');
+            var request_data = {'message': 'GET DATA'};
+            try {
+                socket.send(JSON.stringify(request_data));
+            } catch (error) {
+                console.error('Error sending message:', error);
+            }
+        };
+
+        socket.onmessage = function (event) {
+            console.log('Сообщение подключения');
+            var message = JSON.parse(event.data);
+            if (message.type === 'data.updated') {
+                var data = JSON.parse(message.data)
+                console.log(data);
+                if (data.internal_type === 'table_updated') {
+                    updateTable(data.event_data);
+                }
+                else if (data.internal_type === 'status_updated') {
+                    read_printer_status(data.event_data);
+                }
+                
+                
+            }
+        };
+
+        socket.onclose = function (event) {
+            console.error('WebSocket connection closed:', event);
+            // Переподключение веб-сокета после закрытия
+            setTimeout(connectWebSocket, 1000); // Повторная попытка через 1 секунду
+        };
+    }
+
+    function read_printer_status(data) {
+        console.log('Продумать как обработать данные. статусы: NEXT, LAST PAL, PRINT, WAIT, NOT CONNECT');
+
+        var printerStatusElement = document.getElementById('printer-status');
+        var currentPalElement = document.getElementById('current-pal');
+
+        if (data.status_printer === 'WAIT') {
+            // Обновление статуса принтера и текущего номера палеты при статусе 'WAIT'
+            printerStatusElement.textContent = 'Статус принтера: Ожидает';
+            currentPalElement.textContent = 'Текущий номер палеты: -';
+            selectedRow = null
+            $('#history-table tbody tr').removeClass('selected-row');
+        } else if (data.status_printer === 'PRINT') {
+            // Обновление статуса принтера при статусе 'PRINT'
+            printerStatusElement.textContent = 'Статус принтера: Печатает';
+            currentPalElement.textContent = 'Текущий номер палеты: ' + data.body.PalNo;
+            selectedRow = data.body; // Фиксируем выделенную строку
+            highlightRow(data.body.PalNo, data.body.NumProd, data.body.Barcode);
+        } else if (data.status_printer === 'LAST PAL') {
+            // Обновление статуса принтера при статусе 'LAST PAL'
+            printerStatusElement.textContent = 'Статус принтера: Предыдущая палета';
+            currentPalElement.textContent = 'Текущий номер палеты: -';
+            selectedRow = null
+            $('#history-table tbody tr').removeClass('selected-row');
+
+        }
+    }
+
+    function highlightRow(PalNo, NumProd, Barcode) {
+        // Снимаем выделение со всех строк
+        $('#history-table tbody tr').removeClass('selected-row');
+
+        // Находим строку таблицы по номеру палеты, номеру продукта и баркоду
+        var row = $('#history-table tbody tr').filter(function() {
+            return $(this).find('td:eq(0)').text() == PalNo &&
+                $(this).find('td:eq(1)').text() == NumProd &&
+                $(this).find('td:eq(3)').text() == Barcode;
+        });
+
+        // Применяем стиль к найденной строке
+        row.addClass('selected-row');
+    }
+
+    // Подключение веб-сокета при загрузке страницы
+    $(document).ready(function () {
+        connectWebSocket();
+    });
+
+    </script>
 </body>
 
 </html>

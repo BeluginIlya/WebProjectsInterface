@@ -16,14 +16,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 from .views import index
-from kmp260_line_1.views import kpm_line_1, LocalPrintHistoryAPI
+from kmp260_line_1.views import kpm_line_1_page, LocalPrintHistoryAPI, PrintStatusAPI
 
 app_name = "main"
 
 urlpatterns = [
     path('', index, name="index"),
-    path('kpm_line_1/', kpm_line_1, name="kpm_line_1"),
+    path('kpm_line_1/', kpm_line_1_page, name="kpm_line_1"),
     path('api/local_print_history/', LocalPrintHistoryAPI.as_view(), name='local_print_history_api'),
+    path('api/printer_status', PrintStatusAPI.as_view(), name='printer_status'),
 ]
