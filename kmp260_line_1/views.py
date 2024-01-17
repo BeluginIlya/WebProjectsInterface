@@ -18,8 +18,12 @@ from .models import LocalPrintHistory
 
 def kpm_line_1_page(request):
     latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-NumProd')[:10]
+    ip_address = request.META.get('REMOTE_ADDR', None)
+    port = request.META.get('SERVER_PORT', None)
     context = {
         'latest_records': latest_records[::-1],
+        'ip_address': ip_address, 
+        'port': port
     }
 
     return render(request, "kpm260_line_1/kpm260-line-1.html", context)

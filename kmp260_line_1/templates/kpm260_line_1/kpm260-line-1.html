@@ -10,7 +10,7 @@
     <style>
         body {
             overflow: hidden;
-            
+
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -166,11 +166,14 @@
 
 // Функция для подключения и переподключения веб-сокета
     function connectWebSocket() {
-        var socket = new WebSocket('ws://192.168.5.53:8000/ws/data_updates/');
+        var ipAddress = '{{ ip_address }}';
+        var port = '{{ port }}';
+        var socket = new WebSocket('ws://' + ipAddress + ':' + port + '/ws/data_updates/');
 
         socket.onopen = function (event) {
             console.log('WebSocket connection opened');
-            send_command(socket, 'GET DATA')
+            send_command(socket, 'GET DATA');
+        }
             
 
         socket.onmessage = function (event) {
@@ -237,8 +240,8 @@
             } catch (error) {
                 console.error('Error sending message:', error);
             }
-        };
-    }
+    };
+    
 
     function highlightRow(PalNo, NumProd, Barcode) {
        
