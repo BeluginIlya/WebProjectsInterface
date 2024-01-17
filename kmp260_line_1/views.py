@@ -4,6 +4,9 @@ from asgiref.sync import async_to_sync
 
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.db.models import Subquery, OuterRef, Max
+from django.db.models import F
+
 
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
@@ -17,7 +20,7 @@ from .models import LocalPrintHistory
 
 
 def kpm_line_1_page(request):
-    latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-NumProd')[:10]
+    latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-NumProd')[:4]
     ip_address = request.META.get('REMOTE_ADDR', None)
     port = request.META.get('SERVER_PORT', None)
     context = {
@@ -97,13 +100,32 @@ class LocalPrintHistoryAPI(APIView):
         })
 
 
+    # @classmethod
+    # def get_tabel_data_from_db(cls):
+    #     latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-PalNo','-NumProd')[:4:-1]
+    #     serialized_data = LocalPrintHistorySerializer(latest_records, many=True).data
+    #     regular_data = [dict(item) for item in serialized_data]
+    #     return regular_data
+        
     @classmethod
     def get_tabel_data_from_db(cls):
-        latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-PalNo','-NumProd')[:9:-1]
+        subquery = (
+            LocalPrintHistory.objects
+            .values('PalNo')
+            .annotate(max_timestamp=Max('Timestamp'))
+            .order_by('-max_timestamp')[:3]
+        )
+        print("----------subquery--------------------",subquery)
+
+        latest_records = (
+            LocalPrintHistory.objects.filter(PalNo__in=Subquery(subquery.values('PalNo')))
+            .order_by('-Timestamp', '-PalNo', '-NumProd')
+            .values('PalNo', 'NumProd', 'Timestamp', 'Barcode', 'Product', 'StatusPrint')
+        )[::-1]
+
         serialized_data = LocalPrintHistorySerializer(latest_records, many=True).data
-        regular_data = [dict(item) for item in serialized_data]
-        print("return ---- ----- -----", regular_data)
-        return regular_data
+
+        return serialized_data
 
     
 

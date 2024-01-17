@@ -40,21 +40,25 @@
         }
 
         .dashboard {
-            margin: 20px;
-            height: calc(100vh - 120px);
+            margin: 10px;
+            height: calc(100vh - 140px);
             overflow-y: auto;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 36px; /* Увеличение размера шрифта в таблице */
+            /*font-size: 35px;  Увеличение размера шрифта в таблице */
         }
 
         th, td {
             border: 1px solid #ddd;
-            padding: 20px; /* Увеличение размера ячеек */
+            /* padding: 3px; Увеличение размера ячеек */
             text-align: center;
+        }
+
+        tr {
+            font-size: 50px; /* Увеличение размера шрифта в таблице */
         }
 
         tr.selected-row {
@@ -63,9 +67,18 @@
             font-weight: bold; /* Жирный шрифт для выделенной строки */
         }
 
+        tr.first-prod-row {
+            background-color: orange;
+        } 
+
+        tr.second-prod-row {
+            background-color: green;
+        } 
+
         th {
             background-color: #333;
             color: #fff;
+            padding: 5px;
         }
 
         .check-mark::before {
@@ -101,25 +114,23 @@
         <table id="history-table">
             <thead>
                 <tr>
-                    <th>№ Палеты</th>
-                    <th>№ Изделия</th>
+                    <th>№ Пал.</th>
+                    <th>№ Изд.</th>
                     <th>Дата и Время</th>
-                    <th>Баркод</th>
+                    <th>Штрихкод</th>
                     <th>Наименование продукта</th>
                     <th>Статус</th>
                 </tr>
             </thead>
             <tbody>
-                {% for record in latest_records %}
-                    <tr {% if record.StatusPrint == 5 %}class="red-border"{% endif %}>
-                        <td>{{ record.PalNo }}</td>
-                        <td>{{ record.NumProd }}</td>
-                        <td>{{ record.Timestamp|date:"Y-m-d H:i:s" }}</td>
-                        <td>{{ record.Barcode }}</td>
-                        <td>{{ record.Product }}</td>
-                        <td>{{ record.StatusPrint }}</td>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
-                {% endfor %}
             </tbody>
         </table>
     </div>
@@ -150,6 +161,12 @@
                 statusIcon.addClass('check-mark');
             } else {
                 statusIcon.addClass('cross-mark'); 
+            }
+
+            if (record.NumProd === 1) {
+                newRow.addClass('first-prod-row')
+            } else {
+                newRow.addClass('second-prod-row')
             }
 
             statusCell.append(statusIcon);
