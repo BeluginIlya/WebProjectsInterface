@@ -39,9 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
+    'channels',
     'main',
     'kmp260_line_1',
-    'channels',
+    
     
 ]
 
@@ -100,6 +102,10 @@ CHANNEL_LAYERS = {
     
 }
 
+REST_FRAMEWORK = {
+    'DATETIME_FORMAT': '%Y-%m-%d %H:%M:%S',
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -145,3 +151,9 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRONJOBS = [
+    ('0 0 1 * *', 'kmp260_line_1.cron.monthly_cleanup'),  # ежемесячно в полночь 1-го числа
+]
+
+CRONTAB_COMMAND_SUFFIX = '2>&1'

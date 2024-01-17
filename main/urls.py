@@ -20,7 +20,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from .views import index
-from kmp260_line_1.views import kpm_line_1_page, LocalPrintHistoryAPI, PrintStatusAPI
+from kmp260_line_1.views import LocalPrintHistoryAPI, PrintStatusAPI, kpm_line_1_page, end_product
 
 app_name = "main"
 
@@ -29,4 +29,5 @@ urlpatterns = [
     path('kpm_line_1/', kpm_line_1_page, name="kpm_line_1"),
     path('api/local_print_history/', LocalPrintHistoryAPI.as_view(), name='local_print_history_api'),
     path('api/printer_status', PrintStatusAPI.as_view(), name='printer_status'),
+    path('api/end_product', end_product,  name='end_product'),
 ]

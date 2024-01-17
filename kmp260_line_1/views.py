@@ -1,16 +1,17 @@
 import json
-
 from channels.layers import get_channel_layer
 from asgiref.sync import async_to_sync
+
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+
 from rest_framework.response import Response
+from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from rest_framework import status
+
 from .serializers import LocalPrintHistorySerializer
 from .models import LocalPrintHistory
-from collections import OrderedDict
-
-
-from django.shortcuts import render
 from .models import LocalPrintHistory
 
 
@@ -24,17 +25,48 @@ def kpm_line_1_page(request):
     return render(request, "kpm260_line_1/kpm260-line-1.html", context)
 
 
+
+@api_view(['POST'])
+def end_product(request):
+    if request.method == "POST":
+        data = request.data
+        print("Информация об успешном завершении печати", data)
+        
+        # Используйте filter для поиска записи в базе данных
+        existing_record = LocalPrintHistory.objects.filter(
+            PalNo=data['PalNo'],
+            Barcode=data['Barcode'],
+            Timestamp=data['Timestamp']
+        ).first()
+
+        if existing_record:
+            # Обновите поле StatusPrint на True
+            existing_record.StatusPrint = True
+            existing_record.save()
+
+            # Сериализуйте и возвращайте обновленную запись, если это необходимо
+            serializer = LocalPrintHistorySerializer(existing_record)
+            return Response(serializer.data, status=status.HTTP_200_OK)
+        else:
+            return Response("Запись не найдена", status=status.HTTP_404_NOT_FOUND)
+
+    else:
+        return Response("OK", status=status.HTTP_418_IM_A_TEAPOT)
+
+
+
 class LocalPrintHistoryAPI(APIView):
     def post(self, request, format=None):
+
         for item in request.data.values():
             # Проверяем, есть ли изделие с таким Timestamp и Barcode в базе данных
             existing_record = LocalPrintHistory.objects.filter(
-                Timestamp=item['Timestamp'],
-                Barcode=item['Barcode']
+                # Timestamp=item['Timestamp'], пока тестим, проверям по баркоду и номеру палеты
+                Barcode=item['Barcode'],
+                PalNo = item['PalNo']
             ).first()
 
             if existing_record:
-                # Если запись уже существует, пропускаем ее
                 continue
 
             serializer = LocalPrintHistorySerializer(data=item)
@@ -44,7 +76,7 @@ class LocalPrintHistoryAPI(APIView):
                 data = self.get_tabel_data_from_db()
                 self.send_ws_data(data, 'table_updated')
 
-        return Response(data, status=status.HTTP_201_CREATED)
+        return Response(request.data, status=status.HTTP_201_CREATED)
 
     @classmethod
     def send_ws_data(cls, data, internal_type: str):
@@ -63,10 +95,12 @@ class LocalPrintHistoryAPI(APIView):
 
     @classmethod
     def get_tabel_data_from_db(cls):
-        latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-NumProd')[:10:-1]
+        latest_records = LocalPrintHistory.objects.order_by('-Timestamp', '-PalNo','-NumProd')[:9:-1]
         serialized_data = LocalPrintHistorySerializer(latest_records, many=True).data
         regular_data = [dict(item) for item in serialized_data]
+        print("return ---- ----- -----", regular_data)
         return regular_data
+
     
 
 class PrintStatusAPI(APIView):
