@@ -53,6 +53,7 @@ def end_product(request):
 
             # Сериализуйте и возвращайте обновленную запись, если это необходимо
             serializer = LocalPrintHistorySerializer(existing_record)
+
             return Response(serializer.data, status=status.HTTP_200_OK)
         else:
             return Response("Запись не найдена", status=status.HTTP_404_NOT_FOUND)
@@ -109,11 +110,16 @@ class LocalPrintHistoryAPI(APIView):
         
     @classmethod
     def get_tabel_data_from_db(cls):
+        first_two_entries = LocalPrintHistory.objects.order_by('-Timestamp')[:2]
+
+
+        LocalPrintHistory.objects.exclude(pk__in=first_two_entries.values_list('pk', flat=True)).delete()
+
         subquery = (
             LocalPrintHistory.objects
             .values('PalNo')
             .annotate(max_timestamp=Max('Timestamp'))
-            .order_by('-max_timestamp')[:3]
+            .order_by('-max_timestamp')[:1]
         )
         print("----------subquery--------------------",subquery)
 
@@ -121,7 +127,9 @@ class LocalPrintHistoryAPI(APIView):
             LocalPrintHistory.objects.filter(PalNo__in=Subquery(subquery.values('PalNo')))
             .order_by('-Timestamp', '-PalNo', '-NumProd')
             .values('PalNo', 'NumProd', 'Timestamp', 'Barcode', 'Product', 'StatusPrint')
-        )[::-1]
+        )[:2:-1]
+
+        print("----------latest_records--------------------",latest_records)
 
         serialized_data = LocalPrintHistorySerializer(latest_records, many=True).data
 
