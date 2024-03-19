@@ -1,0 +1,1015 @@
+2024-03-19 11:16:53,115 Процесс для линии 1
+2024-03-19 11:16:53,136 Watching for file changes with StatReloader
+2024-03-19 11:16:53,174 creating snap7 client
+2024-03-19 11:16:53,175 creating snap7 client
+2024-03-19 11:16:53,176 creating snap7 client
+2024-03-19 11:16:53,176 creating snap7 client
+2024-03-19 11:16:53,177 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:16:53,258 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:16:53,258 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:16:53,258 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:16:53,363 b' TCP : Unreachable peer'
+2024-03-19 11:16:53,363 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:16:53,862 b' TCP : Unreachable peer'
+2024-03-19 11:16:53,864 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:16:54,362 b' TCP : Unreachable peer'
+2024-03-19 11:16:54,363 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:16:54,549 C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\decouple.py changed, reloading.
+2024-03-19 11:16:57,374 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:18:10,455 Процесс для линии 1
+2024-03-19 11:18:10,479 creating snap7 client
+2024-03-19 11:18:10,479 creating snap7 client
+2024-03-19 11:18:10,479 creating snap7 client
+2024-03-19 11:18:10,480 creating snap7 client
+2024-03-19 11:18:10,480 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:18:10,868 b' TCP : Unreachable peer'
+2024-03-19 11:18:10,868 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:18:11,223 Watching for file changes with StatReloader
+2024-03-19 11:18:11,321 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:18:11,322 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:18:11,322 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:18:11,363 b' TCP : Unreachable peer'
+2024-03-19 11:18:11,363 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:18:11,863 b' TCP : Unreachable peer'
+2024-03-19 11:18:11,864 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:18:14,871 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:18:59,250 Процесс для линии 1
+2024-03-19 11:18:59,279 creating snap7 client
+2024-03-19 11:18:59,279 creating snap7 client
+2024-03-19 11:18:59,279 creating snap7 client
+2024-03-19 11:18:59,280 creating snap7 client
+2024-03-19 11:18:59,280 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:18:59,925 Watching for file changes with StatReloader
+2024-03-19 11:19:00,024 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:19:00,025 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:19:00,025 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:19:20,323 b' TCP : Connection timed out'
+2024-03-19 11:19:20,323 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:19:20,362 b' TCP : Unreachable peer'
+2024-03-19 11:19:20,363 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:19:20,442 b'CPU : Item not available'
+2024-03-19 11:19:20,442 disconnecting snap7 client
+2024-03-19 11:19:20,442 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:19:23,451 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:19:45,580 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.05, 127.0.0.1:52340][0m
+2024-03-19 11:19:45,589 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:52340][0m
+2024-03-19 11:43:02,639 Процесс для линии 1
+2024-03-19 11:43:02,688 creating snap7 client
+2024-03-19 11:43:02,688 creating snap7 client
+2024-03-19 11:43:02,689 creating snap7 client
+2024-03-19 11:43:02,689 creating snap7 client
+2024-03-19 11:43:02,689 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:43:03,302 Watching for file changes with StatReloader
+2024-03-19 11:43:03,418 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:43:03,418 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:43:03,418 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:43:19,423 [mHTTP GET /laboratory/1/ 200 [0.03, 127.0.0.1:65068][0m
+2024-03-19 11:43:19,474 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=1_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.03, 127.0.0.1:65068][0m
+2024-03-19 11:43:19,481 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=1_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65068][0m
+2024-03-19 11:43:23,555 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65068][0m
+2024-03-19 11:43:23,569 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65068][0m
+2024-03-19 11:43:23,757 b' TCP : Connection timed out'
+2024-03-19 11:43:23,758 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:43:23,863 b' TCP : Unreachable peer'
+2024-03-19 11:43:23,864 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:43:23,952 b'CPU : Address out of range'
+2024-03-19 11:43:23,952 disconnecting snap7 client
+2024-03-19 11:43:23,953 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:43:26,962 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:43:41,200 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65068][0m
+2024-03-19 11:43:41,207 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65068][0m
+2024-03-19 11:43:42,633 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65068][0m
+2024-03-19 11:43:42,640 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65068][0m
+2024-03-19 11:46:13,513 C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\plc\connect_plc.py changed, reloading.
+2024-03-19 11:46:14,552 Watching for file changes with StatReloader
+2024-03-19 11:46:14,676 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:46:14,676 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:46:14,677 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:46:15,955 C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\plc\connect_plc.py changed, reloading.
+2024-03-19 11:46:16,714 Watching for file changes with StatReloader
+2024-03-19 11:46:16,814 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:46:16,815 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:46:16,815 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:46:23,319 Процесс для линии 1
+2024-03-19 11:46:23,366 creating snap7 client
+2024-03-19 11:46:23,366 creating snap7 client
+2024-03-19 11:46:23,366 creating snap7 client
+2024-03-19 11:46:23,367 creating snap7 client
+2024-03-19 11:46:23,367 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:46:23,862 b' TCP : Unreachable peer'
+2024-03-19 11:46:23,862 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:46:23,972 Watching for file changes with StatReloader
+2024-03-19 11:46:24,070 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:46:24,071 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:46:24,071 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:46:24,365 b' TCP : Unreachable peer'
+2024-03-19 11:46:24,365 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:46:24,488 b'CPU : Address out of range'
+2024-03-19 11:46:24,488 disconnecting snap7 client
+2024-03-19 11:46:24,489 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:46:27,497 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:47:28,729 Процесс для линии 1
+2024-03-19 11:47:28,774 creating snap7 client
+2024-03-19 11:47:28,774 creating snap7 client
+2024-03-19 11:47:28,776 creating snap7 client
+2024-03-19 11:47:28,776 creating snap7 client
+2024-03-19 11:47:28,776 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:47:28,863 b' TCP : Unreachable peer'
+2024-03-19 11:47:28,863 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:47:29,356 Watching for file changes with StatReloader
+2024-03-19 11:47:29,364 b' TCP : Unreachable peer'
+2024-03-19 11:47:29,364 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:47:29,458 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:47:29,458 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:47:29,458 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:47:29,511 disconnecting snap7 client
+2024-03-19 11:47:29,522 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:47:32,533 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:48:20,613 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.08, 127.0.0.1:65172][0m
+2024-03-19 11:48:20,626 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65172][0m
+2024-03-19 11:48:20,749 [mHTTP GET /laboratory/check_thread_status?line_id=1&chamber=%D0%A01_2 200 [0.01, 127.0.0.1:65172][0m
+2024-03-19 11:52:32,535 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:52:53,589 b' TCP : Connection timed out'
+2024-03-19 11:52:53,591 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:53:14,646 b' TCP : Connection timed out'
+2024-03-19 11:53:14,646 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:53:14,739 disconnecting snap7 client
+2024-03-19 11:53:14,741 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:53:17,751 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:53:20,535 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65250][0m
+2024-03-19 11:53:20,546 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65250][0m
+2024-03-19 11:53:20,558 [mHTTP GET /laboratory/check_thread_status?line_id=1&chamber=%D0%A01_2 200 [0.00, 127.0.0.1:65250][0m
+2024-03-19 11:57:08,563 Процесс для линии 1
+2024-03-19 11:57:08,628 creating snap7 client
+2024-03-19 11:57:08,628 creating snap7 client
+2024-03-19 11:57:08,629 creating snap7 client
+2024-03-19 11:57:08,629 creating snap7 client
+2024-03-19 11:57:08,629 connecting to 192.168.134.154:102 rack 0 slot 1
+2024-03-19 11:57:08,863 b' TCP : Unreachable peer'
+2024-03-19 11:57:08,864 connecting to 192.168.134.155:102 rack 0 slot 1
+2024-03-19 11:57:09,198 Watching for file changes with StatReloader
+2024-03-19 11:57:09,333 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:57:09,334 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:57:09,334 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:57:09,364 b' TCP : Unreachable peer'
+2024-03-19 11:57:09,364 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:57:09,479 disconnecting snap7 client
+2024-03-19 11:57:09,487 connecting to 192.168.15.185:102 rack 0 slot 1
+2024-03-19 11:57:12,494 b' ISO : An error occurred during recv TCP : Connection timed out'
+2024-03-19 11:59:29,517 Процесс для линии 1
+2024-03-19 11:59:29,560 creating snap7 client
+2024-03-19 11:59:29,561 creating snap7 client
+2024-03-19 11:59:29,561 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 11:59:29,671 disconnecting snap7 client
+2024-03-19 11:59:29,674 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 11:59:29,758 disconnecting snap7 client
+2024-03-19 11:59:30,177 Watching for file changes with StatReloader
+2024-03-19 11:59:30,275 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 11:59:30,276 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 11:59:30,276 Listening on TCP address 0.0.0.0:8000
+2024-03-19 11:59:39,538 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.05, 127.0.0.1:65378][0m
+2024-03-19 11:59:39,546 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A03_4&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65378][0m
+2024-03-19 11:59:44,654 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65378][0m
+2024-03-19 11:59:44,664 [mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65378][0m
+2024-03-19 12:01:45,246 Процесс для линии 4
+2024-03-19 12:01:45,294 creating snap7 client
+2024-03-19 12:01:45,294 creating snap7 client
+2024-03-19 12:01:45,294 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:01:45,459 disconnecting snap7 client
+2024-03-19 12:01:45,466 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:01:45,563 disconnecting snap7 client
+2024-03-19 12:01:45,948 Watching for file changes with StatReloader
+2024-03-19 12:01:46,048 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:01:46,048 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:01:46,050 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:01:53,185 [mHTTP GET /laboratory/1/ 200 [0.09, 127.0.0.1:65417][0m
+2024-03-19 12:01:53,463 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:53,467 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.24, 127.0.0.1:65417][0m
+2024-03-19 12:01:53,486 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:53,489 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65417][0m
+2024-03-19 12:01:56,807 [mHTTP GET /laboratory/2/ 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:01:56,849 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:56,852 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=2&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65417][0m
+2024-03-19 12:01:56,869 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:56,872 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=2&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65417][0m
+2024-03-19 12:01:57,310 [mHTTP GET /laboratory/3/ 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:01:57,345 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:57,347 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65417][0m
+2024-03-19 12:01:57,365 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:01:57,367 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65417][0m
+2024-03-19 12:01:58,145 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:01:58,194 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.03, 127.0.0.1:65417][0m
+2024-03-19 12:01:58,202 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65417][0m
+2024-03-19 12:01:59,739 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A03_4&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:01:59,749 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A03_4&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:02:02,588 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65417][0m
+2024-03-19 12:02:02,597 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65417][0m
+2024-03-19 12:06:45,568 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:06:45,710 disconnecting snap7 client
+2024-03-19 12:06:45,716 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:06:45,801 disconnecting snap7 client
+2024-03-19 12:06:58,561 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:06:58,575 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:06:58,586 [mHTTP GET /laboratory/check_thread_status?line_id=4&chamber=%D0%A01_2 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:41,087 [mHTTP GET /laboratory/3/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:41,166 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:41,169 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.03, 127.0.0.1:65516][0m
+2024-03-19 12:07:41,188 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:41,190 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:07:45,777 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:45,800 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65516][0m
+2024-03-19 12:07:45,808 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65516][0m
+2024-03-19 12:07:54,527 [mHTTP GET /laboratory/1/ 200 [0.00, 127.0.0.1:65516][0m
+2024-03-19 12:07:54,559 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:54,561 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:07:54,578 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:54,581 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:07:55,559 [mHTTP GET /laboratory/2/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:55,593 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:55,596 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=2&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:07:55,613 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:55,615 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=2&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,003 [mHTTP GET /laboratory/3/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,041 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:56,043 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,060 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:07:56,063 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=3&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,442 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,470 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:07:56,477 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65516][0m
+2024-03-19 12:08:16,477 Not Found: /kmp
+2024-03-19 12:08:16,478 [33mHTTP GET /kmp 404 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:08:22,906 [32mHTTP GET /kpm_line_1 301 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:08:22,942 [mHTTP GET /kpm_line_1/ 200 [0.03, 127.0.0.1:65516][0m
+2024-03-19 12:08:23,268 WebSocket HANDSHAKING /ws/data_updates/ [127.0.0.1:49158]
+2024-03-19 12:08:23,269 WebSocket CONNECT /ws/data_updates/ [127.0.0.1:49158]
+2024-03-19 12:08:41,989 WebSocket DISCONNECT /ws/data_updates/ [127.0.0.1:49158]
+2024-03-19 12:08:48,297 [mHTTP GET / 200 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:09:18,987 [mHTTP GET /laboratory/1/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:09:19,026 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:09:19,028 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:09:19,045 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 12:09:19,048 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:65516][0m
+2024-03-19 12:09:20,889 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:09:20,914 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:65516][0m
+2024-03-19 12:09:20,923 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.00, 127.0.0.1:65516][0m
+2024-03-19 12:17:05,723 Процесс для линии 4
+2024-03-19 12:17:05,766 creating snap7 client
+2024-03-19 12:17:05,767 creating snap7 client
+2024-03-19 12:17:05,767 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:17:05,855 disconnecting snap7 client
+2024-03-19 12:17:05,858 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:17:05,863 b' TCP : Unreachable peer'
+2024-03-19 12:17:06,353 Watching for file changes with StatReloader
+2024-03-19 12:17:06,451 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:17:06,452 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:17:06,452 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:20:21,082 Процесс для линии 4
+2024-03-19 12:20:21,147 creating snap7 client
+2024-03-19 12:20:21,147 creating snap7 client
+2024-03-19 12:20:21,148 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:20:21,315 disconnecting snap7 client
+2024-03-19 12:20:21,352 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:20:21,447 disconnecting snap7 client
+2024-03-19 12:20:21,724 Watching for file changes with StatReloader
+2024-03-19 12:20:21,825 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:20:21,825 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:20:21,825 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:20:56,612 Процесс для линии 4
+2024-03-19 12:20:56,728 creating snap7 client
+2024-03-19 12:20:56,729 creating snap7 client
+2024-03-19 12:20:56,729 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:20:56,845 disconnecting snap7 client
+2024-03-19 12:20:56,857 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:20:56,969 disconnecting snap7 client
+2024-03-19 12:20:57,277 Watching for file changes with StatReloader
+2024-03-19 12:20:57,378 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:20:57,378 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:20:57,379 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:21:39,012 Процесс для линии 4
+2024-03-19 12:21:39,076 creating snap7 client
+2024-03-19 12:21:39,077 creating snap7 client
+2024-03-19 12:21:39,077 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:21:39,200 disconnecting snap7 client
+2024-03-19 12:21:39,211 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:21:39,292 disconnecting snap7 client
+2024-03-19 12:21:39,648 Watching for file changes with StatReloader
+2024-03-19 12:21:39,755 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:21:39,755 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:21:39,755 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:23:07,138 Процесс для линии 4
+2024-03-19 12:23:07,205 creating snap7 client
+2024-03-19 12:23:07,205 creating snap7 client
+2024-03-19 12:23:07,205 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:23:07,322 disconnecting snap7 client
+2024-03-19 12:23:07,353 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:23:07,452 disconnecting snap7 client
+2024-03-19 12:23:07,800 Watching for file changes with StatReloader
+2024-03-19 12:23:07,897 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:23:07,897 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:23:07,898 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:52:57,100 Процесс для линии 4
+2024-03-19 12:52:57,203 creating snap7 client
+2024-03-19 12:52:57,203 creating snap7 client
+2024-03-19 12:52:57,204 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:52:57,397 disconnecting snap7 client
+2024-03-19 12:52:57,418 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:52:57,557 disconnecting snap7 client
+2024-03-19 12:52:57,737 Watching for file changes with StatReloader
+2024-03-19 12:52:57,840 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:52:57,840 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:52:57,841 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:53:49,815 Процесс для линии 4
+2024-03-19 12:53:49,912 creating snap7 client
+2024-03-19 12:53:49,912 creating snap7 client
+2024-03-19 12:53:49,912 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:53:50,023 disconnecting snap7 client
+2024-03-19 12:53:50,044 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:53:50,144 disconnecting snap7 client
+2024-03-19 12:53:50,462 Watching for file changes with StatReloader
+2024-03-19 12:53:50,560 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:53:50,561 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:53:50,561 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:54:17,901 C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\plc\tasks.py changed, reloading.
+2024-03-19 12:54:18,719 Watching for file changes with StatReloader
+2024-03-19 12:54:21,034 Процесс для линии 4
+2024-03-19 12:54:21,085 creating snap7 client
+2024-03-19 12:54:21,086 creating snap7 client
+2024-03-19 12:54:21,086 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 12:54:21,198 disconnecting snap7 client
+2024-03-19 12:54:21,216 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 12:54:21,304 disconnecting snap7 client
+2024-03-19 12:54:21,676 Watching for file changes with StatReloader
+2024-03-19 12:54:21,772 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 12:54:21,772 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 12:54:21,773 Listening on TCP address 0.0.0.0:8000
+2024-03-19 12:54:21,898 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.10, 127.0.0.1:50444][0m
+2024-03-19 12:54:21,941 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.04, 127.0.0.1:50444][0m
+2024-03-19 12:54:21,957 [mHTTP GET /laboratory/check_thread_status?line_id=4&chamber=%D0%A01_2 200 [0.01, 127.0.0.1:50444][0m
+2024-03-19 13:00:47,089 Процесс для линии 4
+2024-03-19 13:00:47,141 creating snap7 client
+2024-03-19 13:00:47,142 creating snap7 client
+2024-03-19 13:00:47,142 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:00:47,243 disconnecting snap7 client
+2024-03-19 13:00:47,264 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:00:47,374 disconnecting snap7 client
+2024-03-19 13:00:47,728 Watching for file changes with StatReloader
+2024-03-19 13:00:47,833 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 13:00:47,833 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 13:00:47,833 Listening on TCP address 0.0.0.0:8000
+2024-03-19 13:01:02,668 [mHTTP GET / 200 [0.03, 127.0.0.1:50558][0m
+2024-03-19 13:01:02,727 Not Found: /favicon.ico
+2024-03-19 13:01:02,728 [33mHTTP GET /favicon.ico 404 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:01:05,442 [mHTTP GET /kpm_line_1/ 200 [0.01, 127.0.0.1:50558][0m
+2024-03-19 13:01:06,185 WebSocket HANDSHAKING /ws/data_updates/ [127.0.0.1:50564]
+2024-03-19 13:01:06,187 WebSocket CONNECT /ws/data_updates/ [127.0.0.1:50564]
+2024-03-19 13:01:07,845 WebSocket DISCONNECT /ws/data_updates/ [127.0.0.1:50564]
+2024-03-19 13:01:38,479 [mHTTP GET / 200 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:01:57,836 [mHTTP GET / 200 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:02:24,570 [mHTTP GET / 200 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:02:50,621 [mHTTP GET / 200 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:03:21,037 [mHTTP GET / 200 [0.02, 127.0.0.1:50558][0m
+2024-03-19 13:05:02,388 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '1' not found. '1' is not a valid view function or pattern name.
+2024-03-19 13:05:02,392 [35;1mHTTP GET / 500 [0.13, 127.0.0.1:50627][0m
+2024-03-19 13:05:47,397 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:05:47,505 disconnecting snap7 client
+2024-03-19 13:05:47,522 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:05:47,624 disconnecting snap7 client
+2024-03-19 13:06:03,026 [mHTTP GET / 200 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:05,211 [mHTTP GET /laboratory/1/ 200 [0.01, 127.0.0.1:50650][0m
+2024-03-19 13:06:05,906 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 13:06:05,913 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 500 [0.03, 127.0.0.1:50650][0m
+2024-03-19 13:06:05,936 Internal Server Error: /laboratory/get_sensors_data
+Traceback (most recent call last):
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\AppData\Local\Programs\Python\Python312\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\WebInterfaceForProjects\laboratory\views.py", line 49, in get_sensors_data
+    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\belug\Documents\PythonProjects\WebInterfaceForProjects\venv\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
+2024-03-19 13:06:05,938 [35;1mHTTP GET /laboratory/get_sensors_data?line_id=1&chamber=null&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 500 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:14,852 [mHTTP GET / 200 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:15,852 [mHTTP GET / 200 [0.00, 127.0.0.1:50650][0m
+2024-03-19 13:06:17,421 [mHTTP GET /laboratory/4/ 200 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:17,557 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.11, 127.0.0.1:50650][0m
+2024-03-19 13:06:17,576 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,393 [32mHTTP GET /admin/ 302 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,543 [mHTTP GET /admin/login/?next=/admin/ 200 [0.15, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,622 [mHTTP GET /static/admin/css/dark_mode.css 200 [0.07, 127.0.0.1:50651][0m
+2024-03-19 13:06:34,622 [mHTTP GET /static/admin/css/base.css 200 [0.07, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,635 [mHTTP GET /static/admin/css/nav_sidebar.css 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:34,636 [mHTTP GET /static/admin/css/login.css 200 [0.01, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,649 [mHTTP GET /static/admin/css/responsive.css 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:34,653 [mHTTP GET /static/admin/js/theme.js 200 [0.02, 127.0.0.1:50650][0m
+2024-03-19 13:06:34,670 [mHTTP GET /static/admin/js/nav_sidebar.js 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:06:38,635 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:38,688 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:06:38,704 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:55,356 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:55,392 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:06:55,408 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:07:33,869 [mHTTP GET /laboratory/4/ 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:07:33,915 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:07:33,937 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:07:41,226 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A03_4&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:07:41,243 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A03_4&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.01, 127.0.0.1:50651][0m
+2024-03-19 13:07:44,100 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=air_temp&end_data=&interpolation_points=300 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:07:44,120 [mHTTP GET /laboratory/get_sensors_data?line_id=4&chamber=%D0%A01_2&start_date=&sensor_type=humidity&end_data=&interpolation_points=300 200 [0.02, 127.0.0.1:50651][0m
+2024-03-19 13:19:09,367 Процесс для линии 4
+2024-03-19 13:19:09,440 creating snap7 client
+2024-03-19 13:19:09,440 creating snap7 client
+2024-03-19 13:19:09,440 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:19:09,584 disconnecting snap7 client
+2024-03-19 13:19:09,613 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:19:09,701 disconnecting snap7 client
+2024-03-19 13:19:10,179 Watching for file changes with StatReloader
+2024-03-19 13:19:10,281 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 13:19:10,282 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 13:19:10,282 Listening on TCP address 0.0.0.0:8000
+2024-03-19 13:19:29,565 Процесс для линии 4
+2024-03-19 13:19:29,729 creating snap7 client
+2024-03-19 13:19:29,729 creating snap7 client
+2024-03-19 13:19:29,729 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:19:29,851 disconnecting snap7 client
+2024-03-19 13:19:29,902 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:19:29,978 disconnecting snap7 client
+2024-03-19 13:19:30,240 Watching for file changes with StatReloader
+2024-03-19 13:19:30,336 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-19 13:19:30,336 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-19 13:19:30,337 Listening on TCP address 0.0.0.0:8000
+2024-03-19 13:24:30,012 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:24:30,094 disconnecting snap7 client
+2024-03-19 13:24:30,111 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:24:30,194 disconnecting snap7 client
+2024-03-19 13:29:30,212 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-19 13:29:30,340 disconnecting snap7 client
+2024-03-19 13:29:30,388 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-19 13:29:30,468 disconnecting snap7 client

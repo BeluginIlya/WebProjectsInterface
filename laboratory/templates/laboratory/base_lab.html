@@ -85,7 +85,57 @@
             display: block;
         }
 
-    </style>
+        #statusIndicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-left: 10px;
+            display: inline-block;
+        }
+
+        /* Пример анимации для кнопки "Start" */
+#startButton.running-animation {
+    background-color: green;
+    animation: pulse-green 1s infinite;
+}
+
+/* Пример анимации для кнопки "Stop" */
+#stopButton.stopped-animation {
+    background-color: red;
+    animation: pulse-red 1s infinite;
+}
+
+@keyframes pulse-green {
+    0% {
+        background-color: green;
+        transform: scale(1);
+    }
+    50% {
+        background-color: lightgreen;
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: green;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse-red {
+    0% {
+        background-color: red;
+        transform: scale(1);
+    }
+    50% {
+        background-color: lightcoral;
+        transform: scale(1.2);
+    }
+    100% {
+        background-color: red;
+        transform: scale(1);
+    }
+}
+
+</style>
 </head>
 <body>
     <header>
@@ -127,70 +177,47 @@
                     <!-- Здесь будут отображаться текущие линии -->
                 </ul>
                 <button type="button" onclick="addNewLine()">Добавить линию</button>
-              <form action="{% url 'laboratory:create_line' %}" method="post">
-                {% csrf_token %}
-                {{ form.as_p }}
-                <input type="submit" value="Сохранить">
               </form>
             </div>
           </div>
         </div>
     </div>
 
-
-
-    <script>
-    function addLineToList(line) {
-
-        var listItem = document.createElement("li");
-
-        listItem.textContent = line.name;
-
-        document.querySelector("#linesList").appendChild(listItem);
-    }
-
-    function openSettingsModal() {
-        var password = prompt("Введите пароль:");
-
-        if (password === "112233") {
-            $('#settingsModal').modal('show');  
-
-            $.ajax({
-                url: "{% url 'laboratory:get_lines' %}",  
-                type: 'GET',
-                success: function (data) {
-                    // Добавление текущих линий в список
-                    console.log(data)
-                    data.lines.forEach(function (line) {
-                        addLineToList(line);
-                    });
-                }
-            });
-        } else {
-            alert("Неверный пароль");
-        }
-    }
-
-    // Функция для добавления новой линии
-    function addNewLine() {
-        var newLineName = prompt("Введите имя новой линии:");
-        if (newLineName) {
-            addLineToList(newLineName);
-
-           
-            $.ajax({
-                url: '{% url "laboratory:create_line" %}', 
-                type: 'POST',
-                data: { 'lineName': newLineName },
-                success: function (data) {
-                    // Обработка успешного сохранения
-                }
-            });
-        }
-    }
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
+</body>
 
+
+<script>
+        function addLineToList(line) {
+    
+            var listItem = document.createElement("li");
+    
+            listItem.textContent = line.name;
+    
+            document.querySelector("#linesList").appendChild(listItem);
+        }
+    
+        function openSettingsModal() {
+            var password = prompt("Введите пароль:");
+    
+            if (password === "112233") {
+                $('#settingsModal').modal('show');  
+    
+                $.ajax({
+                    url: "{% url 'laboratory:get_lines' %}",  
+                    type: 'GET',
+                    success: function (data) {
+                        // Добавление текущих линий в список
+                        console.log(data)
+                        data.lines.forEach(function (line) {
+                            addLineToList(line);
+                        });
+                    }
+                });
+            } else {
+                alert("Неверный пароль");
+            }
+        }
+</script>
 </html>

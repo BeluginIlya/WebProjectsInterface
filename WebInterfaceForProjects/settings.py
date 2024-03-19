@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     'channels',
     'main',
     'kmp260_line_1',
-    'laboratory' 
+    'laboratory',
+    'plc'
 ]
 
 MIDDLEWARE = [

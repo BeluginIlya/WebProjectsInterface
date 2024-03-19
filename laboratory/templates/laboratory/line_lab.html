@@ -12,24 +12,26 @@
     </select>
     {% if unique_chambers %}
     <div class="button-container">
-        <button id="startButton" onclick="startDataCollection()">Start</button>
-        <button id="stopButton" onclick="stopDataCollection()">Stop</button>
+        <div id="errorMessage" style="color: red;"></div>
     </div>
+   
     {% endif %}
 
     <div>
-        <label for="startDate">Выберите день:</label>
+        <label for="startDate">От:</label>
         <input type="date" id="startDate">
+        <label for="end_data">До:</label>
+        <input type="date" id="end_data">
     </div>
 
     <div class="chart-container">
         <!-- График температуры -->
-        <canvas id="temperatureChart"></canvas>
+        <canvas id="temperatureChartid" width="400" height="200"></canvas>
     </div>
 
     <div class="chart-container">
         <!-- График влажности -->
-        <canvas id="humidityChart"></canvas>
+        <canvas id="humidityChartid"></canvas>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -38,8 +40,65 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-dragdata"></script>
 
     <script>
-        var ctx = document.getElementById('temperatureChart').getContext('2d');
-        var temperatureChart;
+        var temperatureChart = null;
+        var humidityChart = null;
+        var temperature_El = document.getElementById('temperatureChartid');
+        var humidity_El = document.getElementById('humidityChartid');
+        $(document).ready(async function () {
+            var line_id = {{ line_id }};
+            fetchDataAndUpdateCharts(line_id);
+
+            $('#chamberSelect, #startDate, #end_data').change(function () {
+                fetchDataAndUpdateCharts(line_id);
+            });
+
+            setInterval(async function () {
+                console.log("Start---");
+                var chamber = $('#chamberSelect').val();
+
+
+                try {
+                    var temperature_data =  fetchSensorData(line_id, "air_temp");
+                    var humidity_data =  fetchSensorData(line_id, "humidity");
+
+                    console.log(temperature_data)
+
+                    if (!temperatureChart) {
+                        temperatureChart = initializeChart(
+                            temperature_data.labels,
+                            temperature_El,
+                            'Температура',
+                            0,
+                            80,
+                            'rgba(255, 99, 132, 1)',
+                            'temperatureChartid'
+                        );
+                        updateChart(temperature_data, temperatureChart);
+                    } else {
+                        updateChart(temperature_data, temperatureChart);
+                    }
+
+                    if (!humidityChart) {
+                        humidityChart = initializeChart(
+                            humidity_data.labels,
+                            humidity_El,
+                            'Влажность',
+                            0,
+                            80,
+                            'rgba(75, 192, 192, 1)',
+                            'humidityChartid'
+                        );
+                        updateChart(humidity_data, humidityChart);
+                    } else {
+                        updateChart(humidity_data, humidityChart);
+                    }
+
+                    checkThreadStatus(line_id, chamber);
+                } catch (error) {
+                    console.error(error);
+                }
+            }, 300000);
+        });
 
         function getCookie(name) {
             var cookieValue = null;
@@ -56,234 +115,227 @@
             return cookieValue;
         }
 
-        function fetchData(line_id) {
-            var chamber = $('#chamberSelect').val();  // Получаем выбранную камеру
-            var startDate = $('#startDate').val();  // Получаем выбранную дату
-            var apiUrl = "{% url 'laboratory:get_temperature_data' %}?line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate;
+        function fetchDataAndUpdateCharts(line_id) {
+            try {
+                    var temperature_data =  fetchSensorData(line_id, "air_temp");
+                    var humidity_data =  fetchSensorData(line_id, "humidity");
+
+                    console.log("Данные полученые при обновлении", temperature_data)
+                    console.log(temperatureChart)
+
+                    if (!temperatureChart) {
+                        temperatureChart = initializeChart(
+                            temperature_data.labels,
+                            temperature_El,
+                            'Температура',
+                            0,
+                            80,
+                            'rgba(255, 99, 132, 1)',
+                            'temperatureChartid'
+                        );
+                        updateChart(temperature_data, temperatureChart);
+                    } else {
+                        updateChart(temperature_data, temperatureChart);
+                    }
+
+                    if (!humidityChart) {
+                        humidityChart = initializeChart(
+                            humidity_data.labels,
+                            humidity_El,
+                            'Влажность',
+                            0,
+                            80,
+                            'rgba(75, 192, 192, 1)',
+                            'humidityChartid'
+                        );
+                        updateChart(humidity_data, humidityChart);
+                    } else {
+                        updateChart(humidity_data, humidityChart);
+                    }
+                } catch (error) {
+                    console.error(error);
+                }
+        };
+
+        function fetchSensorData(line_id, sensor) {
+            var chamber = $('#chamberSelect').val();
+            var startDate = $('#startDate').val(); 
+            var end_data = $('#end_data').val(); 
+            var interpolation_points = 300;
+            var data_request = "line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate + "&sensor_type=" + sensor +
+                                "&end_data=" + end_data + "&interpolation_points=" + interpolation_points;
+
+            var apiUrl = "{% url 'laboratory:get_sensors_data' %}?" + data_request;
+            
+            var result;
+
             $.ajax({
                 url: apiUrl,
                 type: 'GET',
+                async: false,  
                 success: function (data) {
-                    updateChart(data);
+                    if (data.labels === null) {
+                        $('#errorMessage').text(data.error).show();
+                        console.log("Данные отсутствуют")
+                        result = {labels:{}, };
+                    } else {
+                        $('#errorMessage').text(data.error).show();
+                        result = data;
+                    }
                 },
                 error: function (error) {
                     console.error('Error fetching data:', error);
+                    result = {};
                 }
             });
+
+            return result;
         }
-        function updateChart(data) {
-            if (!temperatureChart) {
-                initializeChart(data.labels);  // Передаем labels при первой инициализации
+
+        function updateChart(data, chart) {
+            if (!chart) {
+                console.log('Chart error');
+                return;
             }
 
             const visiblePoints = 288;
             const emptyPoint = null;
 
-            // Оставляем только последние 16 точек и добавляем 1 пустую
-            const lastLabels = data.labels.slice(-visiblePoints);
-            const lastValues = data.values.slice(-visiblePoints);
+            if (data.labels && data.values && data.labels.length > 0 && data.values.length > 0) {
+                const totalPoints = data.labels.length;
+                const additionalEmptyPoints = Math.round(totalPoints * 0.1);
 
-            const extendedLabels = [...lastLabels, emptyPoint];
-            const extendedValues = [...lastValues, emptyPoint];
+                // Оставляем только последние visiblePoints точек и добавляем 20% пустых точек в конец
+                const lastLabels = data.labels.slice(-visiblePoints);
+                const lastValues = data.values.slice(-visiblePoints);
 
-            temperatureChart.data.labels = extendedLabels;
-            temperatureChart.data.datasets[0].data = extendedValues;
-            temperatureChart.update();
+                const extendedLabels = [...lastLabels, ...Array(additionalEmptyPoints).fill(emptyPoint)];
+                const extendedValues = [...lastValues, ...Array(additionalEmptyPoints).fill(emptyPoint)];
+
+                chart.data.labels = extendedLabels;
+                chart.data.datasets[0].data = extendedValues;
+            } else {
+                // Если нет данных, создаем пустой график
+                chart.data.labels = [emptyPoint];
+                chart.data.datasets[0].data = [emptyPoint];
+            }
+            chart.update();
         }
-        function initializeChart(labels) {
-            temperatureChart = new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: labels.map(label => moment(label, 'HH:mm:ss')),
-                    datasets: [{
-                        label: 'Temperature',
-                        data: [],
-                        borderColor: 'rgba(255, 99, 132, 1)',
-                        borderWidth: 1,
-                        fill: false,
-                        cubicInterpolationMode: 'monotone',
-                        responsive: true, /* график будет масштабирован */
-                        maintainAspectRatio: false
-                    }]
-                },
-                options: {
-                    scales: {
-                        x: {
-                            time: {
-                                unit: 'second',
-                                tooltipFormat: 'HH:mm:ss'
-                            },
-                        },
-                        y: {
-                            min: 0,
-                            max: 60
-                        }
+        
+        function initializeChart(labels, elementChar, chart_label, min_y, max_y, color, id) {
+            var canvasId = id;
+            var existingCanvas = document.getElementById(canvasId);
+
+            if (existingCanvas) {
+                var ctx = existingCanvas.getContext('2d');
+
+                var newChart = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: labels.map(label => moment(label, 'HH:mm:ss')),
+                        datasets: [{
+                            label: chart_label,
+                            data: [],
+                            borderColor: color,
+                            borderWidth: 1,
+                            fill: false,
+                            cubicInterpolationMode: 'monotone',
+                            responsive: true,
+                            maintainAspectRatio: false
+                        }]
                     },
-                    plugins: {
-                        zoom: {
-                            pan: {
-                                enabled: true,
-                                mode: 'x',
-                                speed: 10,
+                    options: {
+                        scales: {
+                            x: {
+                                time: {
+                                    unit: 'second',
+                                    tooltipFormat: 'HH:mm:ss'
+                                },
                             },
-                            zoom: {
-                                wheel: {
-                                    enabled: true,
-                                },
-                                pinch: {
-                                    enabled: true,
-                                },
-                                mode: 'x',
+                            y: {
+                                min: min_y,
+                                max: max_y
                             }
                         },
+                        plugins: {
+                            zoom: {
+                                pan: {
+                                    enabled: true,
+                                    mode: 'x',
+                                    speed: 10,
+                                },
+                                zoom: {
+                                    wheel: {
+                                        enabled: true,
+                                    },
+                                    pinch: {
+                                        enabled: true,
+                                    },
+                                    mode: 'x',
+                                }
+                            },
+                        }
                     }
-                }
-            });
+                });
+
+                return newChart;
+            } else {
+                console.error("Canvas with id " + canvasId + " not found.");
+                return null;
+            }
         }
 
-        // Инициализация графика и установка интервала обновления
-        $(document).ready(function () {
-            var line_id = {{ line_id }};
-            fetchData(line_id);
-            setInterval(function () {
-                fetchData(line_id);
-            }, 1000);  // Обновление каждую секунду
-        });
 
-        var ctxHumidity = document.getElementById('humidityChart').getContext('2d');
-        var humidityChart;
 
-        function fetchDataHumidity(line_id) {
-            var chamber = $('#chamberSelect').val();
-            var startDate = $('#startDate').val();
-            var apiUrl = "{% url 'laboratory:get_humidity_data' %}?line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate;
+        function checkThreadStatus(line_id, chamber) {
+            var apiUrl = "{% url 'laboratory:check_thread_status' %}?line_id=" + line_id + "&chamber=" + chamber;
             $.ajax({
                 url: apiUrl,
                 type: 'GET',
                 success: function (data) {
-                    updateChartHumidity(data);
+                    console.log(data)
+                    if (data.status === 'running') {
+                        updateButtonStatus('running');
+                        if (data.exception_info) {
+                            $('#errorMessage').text(data.exception_info[1]);
+                        }  
+                    } else if (data.status === 'error') {
+                        updateButtonStatus('error');
+                        console.log(data.exception_info)
+                        $('#errorMessage').text('Ошибка чтения ПЛК: ' + data.exception_info);  // Выводим сообщение об ошибке
+                    } else if (data.status === 'stopped') {
+                        updateButtonStatus('stopped');
+                        $('#errorMessage').text('');
+
+                    }
                 },
                 error: function (error) {
-                    console.error('Error fetching humidity data:', error);
+                    console.error('Error checking thread status:', error);
+                    updateButtonStatus('error');  
+                    $('#errorMessage').text(data.message);  
                 }
             });
-        }
+        };
 
-        function updateChartHumidity(data) {
-            if (!humidityChart) {
-                initializeChartHumidity(data.labels);
+        function updateButtonStatus(status) {
+            var startButton = $('#startButton');
+            var stopButton = $('#stopButton');
+            var statusIndicator = $('#statusIndicator');
+
+            switch (status) {
+                case 'running':
+                    statusIndicator.css('background-color', 'green');
+                    break;
+                case 'stopped':
+                    statusIndicator.css('background-color', 'red');
+                    break;
+                default:
+                    statusIndicator.css('background-color', '');
+                    // Обработка других возможных статусов, если необходимо
+                    break;
             }
+        };
 
-            const visiblePoints = 288;
-            const emptyPoint = null;
-
-            const lastLabels = data.labels.slice(-visiblePoints);
-            const lastValues = data.values.slice(-visiblePoints);
-
-            const extendedLabels = [...lastLabels, emptyPoint];
-            const extendedValues = [...lastValues, emptyPoint];
-
-            humidityChart.data.labels = extendedLabels;
-            humidityChart.data.datasets[0].data = extendedValues;
-            humidityChart.update();
-        }
-
-        function initializeChartHumidity(labels) {
-            humidityChart = new Chart(ctxHumidity, {
-                type: 'line',
-                data: {
-                    labels: labels.map(label => moment(label, 'HH:mm:ss')),
-                    datasets: [{
-                        label: 'Humidity',
-                        data: [],
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 1,
-                        fill: false,
-                        cubicInterpolationMode: 'monotone',
-                        responsive: true,
-                        maintainAspectRatio: false
-                    }]
-                },
-                options: {
-                    scales: {
-                        x: {
-                            time: {
-                                unit: 'second',
-                                tooltipFormat: 'HH:mm:ss'
-                            },
-                        },
-                        y: {
-                            min: 0,
-                            max: 12
-                        }
-                    },
-                    plugins: {
-                        zoom: {
-                            pan: {
-                                enabled: true,
-                                mode: 'x',
-                                speed: 10,
-                            },
-                            zoom: {
-                                wheel: {
-                                    enabled: true,
-                                },
-                                pinch: {
-                                    enabled: true,
-                                },
-                                mode: 'x',
-                            }
-                        },
-                    }
-                }
-            });
-        }
-
-        $(document).ready(function () {
-            var line_id = {{ line_id }};
-            fetchDataHumidity(line_id);
-            setInterval(function () {
-                fetchDataHumidity(line_id);
-            }, 1000);
-        });
-
-        function startDataCollection() {
-            var line_id = {{ line_id }};
-            var chamber = selectedChamber();
-            var startDate = $('#startDate').val();  // Получаем выбранную дату
-            $.post("{% url 'laboratory:start_plc_data_collection' %}", {
-                line_id: line_id,
-                chamber: chamber,
-                csrfmiddlewaretoken: getCookie('csrftoken'),
-            }, function (data, status) {
-                if (status === 'success' && data.status === 'success') {
-                    $('#startButton').css('background-color', 'green');
-                    $('#stopButton').css('background-color', '');
-                } else {
-                    alert(data.message);
-                }
-            });
-        }
-
-        function stopDataCollection() {
-            var line_id = {{ line_id }};
-            var chamber = selectedChamber();
-            $.post("{% url 'laboratory:stop_plc_data_collection' %}", {
-                line_id: line_id,
-                chamber: chamber,
-                csrfmiddlewaretoken: getCookie('csrftoken'),
-            }, function (data, status) {
-                if (status === 'success' && data.status === 'success') {
-                    $('#startButton').css('background-color', '');
-                    $('#stopButton').css('background-color', 'red');
-                } else {
-                    alert(data.message);
-                }
-            });
-        }
-
-        function selectedChamber() {
-            return $('#chamberSelect').val();
-        }
     </script>
+
 {% endblock %}

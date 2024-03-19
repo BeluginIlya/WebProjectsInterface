@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['start.py'],
+    ['Start.py'],
     pathex=[],
-    binaries=[],
-    datas=[],
+    binaries=[('C:\\Users\\belug\\Documents\\PythonProjects\\WebInterfaceForProjects\\venv\\Lib\\site-packages\\snap7\\lib\\snap7.dll', '.')],
+    datas=[('db.sqlite3', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -20,7 +20,7 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='start',
+    name='Start',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
@@ -39,5 +39,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='start',
+    name='Start',
 )
