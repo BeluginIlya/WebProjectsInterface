@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Лаборатория{% endblock %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            width: 150px;
+            height: 100vh;
+            background-color: #f8f9fa;
+            padding: 10px;
+            box-sizing: border-box;
+            float: left;
+        }
+
+        main {
+            margin-left: 220px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .chart-container {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        /* Bootstrap styles for the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            margin-bottom: 5px;
+            background-color: #ffffff;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #495057;
+            display: block;
+            padding: 10px;
+            font-size: 16px; /* Увеличение размера текста */
+            transition: color 0.3s, font-size 0.3s; /* Добавление анимации изменения цвета и размера текста */
+        }
+
+
+        nav .active {
+            background-color: #2a6198; 
+            color: #000000;
+        }
+
+        nav .active a {
+            color: #ffffff;
+        }
+
+        nav a:hover {
+            background-color: #e9ecef;
+            border-radius: 3px;
+            color: #000000;
+            text-decoration: none; /* Убрать подчеркивание */
+            font-size: 18px; /* Увеличение размера текста при наведении */
+        }
+
+        #temperatureChart {
+            width: 100%; /* Ширина графика на 80% страницы */
+            height: 400px; /* Высота графика (по вашему выбору) */
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h1>Лаборатория</h1>
+            <div>
+                <button type="button" onclick="openSettingsModal()">Настройки</button>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    </header>
+
+    <nav>
+        <ul>
+            {% for line in lines %}
+                <li class="{% if line.LineName == line_name %}active{% endif %}">
+                    <a href="{% url 'laboratory:line_lab' line.id %}">{{ line.LineName }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <div class="modal fade" id="settingsModal" tabindex="-1" role="dialog" aria-labelledby="settingsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="settingsModalLabel">Настройки</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h5>Список линий:</h5>
+                <ul id="linesList">
+                    <!-- Здесь будут отображаться текущие линии -->
+                </ul>
+                <button type="button" onclick="addNewLine()">Добавить линию</button>
+              <form action="{% url 'laboratory:create_line' %}" method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" value="Сохранить">
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    function addLineToList(line) {
+
+        var listItem = document.createElement("li");
+
+        listItem.textContent = line.name;
+
+        document.querySelector("#linesList").appendChild(listItem);
+    }
+
+    function openSettingsModal() {
+        var password = prompt("Введите пароль:");
+
+        if (password === "112233") {
+            $('#settingsModal').modal('show');  
+
+            $.ajax({
+                url: "{% url 'laboratory:get_lines' %}",  
+                type: 'GET',
+                success: function (data) {
+                    // Добавление текущих линий в список
+                    console.log(data)
+                    data.lines.forEach(function (line) {
+                        addLineToList(line);
+                    });
+                }
+            });
+        } else {
+            alert("Неверный пароль");
+        }
+    }
+
+    // Функция для добавления новой линии
+    function addNewLine() {
+        var newLineName = prompt("Введите имя новой линии:");
+        if (newLineName) {
+            addLineToList(newLineName);
+
+           
+            $.ajax({
+                url: '{% url "laboratory:create_line" %}', 
+                type: 'POST',
+                data: { 'lineName': newLineName },
+                success: function (data) {
+                    // Обработка успешного сохранения
+                }
+            });
+        }
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+
+</html>

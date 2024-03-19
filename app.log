@@ -1,0 +1,2053 @@
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'PLTE' 41 60
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 113 8192
+ERROR:root:An error occurred: <function on_exit at 0x000001DA8DE5A200>
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'PLTE' 41 60
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 113 8192
+ERROR:root:An error occurred: <function on_exit at 0x000001E9E34AA200>
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'PLTE' 41 60
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 113 8192
+ERROR:root:An error occurred: 'NoneType' object has no attribute 'on_exit'
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'PLTE' 41 60
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 113 8192
+DEBUG:PIL.Image:Importing BlpImagePlugin
+DEBUG:PIL.Image:Importing BmpImagePlugin
+DEBUG:PIL.Image:Importing BufrStubImagePlugin
+DEBUG:PIL.Image:Importing CurImagePlugin
+DEBUG:PIL.Image:Importing DcxImagePlugin
+DEBUG:PIL.Image:Importing DdsImagePlugin
+DEBUG:PIL.Image:Importing EpsImagePlugin
+DEBUG:PIL.Image:Importing FitsImagePlugin
+DEBUG:PIL.Image:Importing FliImagePlugin
+DEBUG:PIL.Image:Importing FpxImagePlugin
+DEBUG:PIL.Image:Image: failed to import FpxImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing FtexImagePlugin
+DEBUG:PIL.Image:Importing GbrImagePlugin
+DEBUG:PIL.Image:Importing GifImagePlugin
+DEBUG:PIL.Image:Importing GribStubImagePlugin
+DEBUG:PIL.Image:Importing Hdf5StubImagePlugin
+DEBUG:PIL.Image:Importing IcnsImagePlugin
+DEBUG:PIL.Image:Importing IcoImagePlugin
+DEBUG:PIL.Image:Importing ImImagePlugin
+DEBUG:PIL.Image:Importing ImtImagePlugin
+DEBUG:PIL.Image:Importing IptcImagePlugin
+DEBUG:PIL.Image:Importing JpegImagePlugin
+DEBUG:PIL.Image:Importing Jpeg2KImagePlugin
+DEBUG:PIL.Image:Importing McIdasImagePlugin
+DEBUG:PIL.Image:Importing MicImagePlugin
+DEBUG:PIL.Image:Image: failed to import MicImagePlugin: No module named 'olefile'
+DEBUG:PIL.Image:Importing MpegImagePlugin
+DEBUG:PIL.Image:Importing MpoImagePlugin
+DEBUG:PIL.Image:Importing MspImagePlugin
+DEBUG:PIL.Image:Importing PalmImagePlugin
+DEBUG:PIL.Image:Importing PcdImagePlugin
+DEBUG:PIL.Image:Importing PcxImagePlugin
+DEBUG:PIL.Image:Importing PdfImagePlugin
+DEBUG:PIL.Image:Importing PixarImagePlugin
+DEBUG:PIL.Image:Importing PngImagePlugin
+DEBUG:PIL.Image:Importing PpmImagePlugin
+DEBUG:PIL.Image:Importing PsdImagePlugin
+DEBUG:PIL.Image:Importing QoiImagePlugin
+DEBUG:PIL.Image:Importing SgiImagePlugin
+DEBUG:PIL.Image:Importing SpiderImagePlugin
+DEBUG:PIL.Image:Importing SunImagePlugin
+DEBUG:PIL.Image:Importing TgaImagePlugin
+DEBUG:PIL.Image:Importing TiffImagePlugin
+DEBUG:PIL.Image:Importing WebPImagePlugin
+DEBUG:PIL.Image:Importing WmfImagePlugin
+DEBUG:PIL.Image:Importing XbmImagePlugin
+DEBUG:PIL.Image:Importing XpmImagePlugin
+DEBUG:PIL.Image:Importing XVThumbImagePlugin
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/css/login.css
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+WARNING:django.request:Not Found: /static/admin/css/nav_sidebar.css
+WARNING:django.request:Not Found: /static/admin/css/dark_mode.css
+WARNING:django.request:Not Found: /static/admin/css/responsive.css
+WARNING:django.request:Not Found: /static/admin/js/theme.js
+WARNING:django.request:Not Found: /static/admin/css/base.css
+WARNING:django.request:Not Found: /static/admin/css/dashboard.css
+WARNING:django.request:Not Found: /static/admin/js/nav_sidebar.js
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin' not found. 'admin' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "c:\Users\Belugin.IL\Documents\WebInterfaceForProjects\WebInterfaceForProjects\main\views.py", line 5, in index
+    return render(request, "main/base.html")
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'admin_dsk' not found. 'admin_dsk' is not a valid view function or pattern name.
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 552, in index
+    app_list = self.get_app_list(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 536, in get_app_list
+    app_dict = self._build_app_dict(request, app_label)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 520, in _build_app_dict
+    "app_url": reverse(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin' is not a registered namespace
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:django.request:Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'admin'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 534, in thread_handler
+    raise exc_info[1]
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\exception.py", line 42, in inner
+    response = await get_response(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\core\handlers\base.py", line 253, in _get_response_async
+    response = await wrapped_callback(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 479, in __call__
+    ret: _R = await loop.run_in_executor(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\current_thread_executor.py", line 40, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\asgiref\sync.py", line 538, in thread_handler
+    return func(*args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 261, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 552, in index
+    app_list = self.get_app_list(request)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 536, in get_app_list
+    app_dict = self._build_app_dict(request, app_label)
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\contrib\admin\sites.py", line 520, in _build_app_dict
+    "app_url": reverse(
+  File "C:\Users\Belugin.IL\Documents\WebInterfaceForProjects\venv\lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admin' is not a registered namespace
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:django.request:Not Found: /main
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:django.request:Not Found: /favicon.ico
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+ERROR:root:An error occurred: Application labels aren't unique, duplicates: runserver_nostatic
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:asyncio:Using selector: SelectSelector

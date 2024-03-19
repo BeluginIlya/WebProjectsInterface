@@ -1,0 +1,277 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дашборд принтера</title>
+    <style>
+        body {
+            overflow: hidden;
+
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 5px; /* Увеличение отступов вокруг заголовка */
+            font-size: 30px; /* Увеличение размера шрифта в заголовке */
+            background-color: #333;
+            color: #fff;
+            display: flex; /* Использование flexbox для размещения в два столбца */
+            justify-content: space-between;
+        }
+
+        .info-header-1,
+        .info-header-2 {
+            flex: 1; /* Равномерное распределение места между двумя столбцами */
+            padding: 5px;
+        }
+
+        .info-header-1,
+        .info-header-2, p {
+            margin-top: 7px;
+            margin-bottom: 7px;
+        }
+
+        .dashboard {
+            overflow: hidden;
+            margin-inline: 10px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            overflow-y: auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 5px;
+            background-color: #fff;
+            font-size: 80px;
+            width: 49%; 
+            transition: transform 0.8s ease;
+        }
+
+        .product-card p {
+            margin-bottom: 15px; 
+        }
+
+        .product-card.selected-card {
+            transform: scale(1.01);
+        }
+
+        .product-card.no-selected-card {
+            transform: scale(0.95);
+        }
+
+        .product-card:only-child {
+            margin: auto;
+        }
+
+        .product-card.first-product-card {
+            background-color: rgb(204, 24, 24);
+        }
+
+        .product-card.second-product-card {
+            background-color:rgb(12, 142, 228);
+        }
+
+        .select-row {
+            border: 7px solid rgb(255, 255, 0);
+        }
+
+        th, td {
+            text-align: left;
+        }
+
+        .check-mark::before {
+            content: '\2713';
+            color: green;
+            font-weight: bold;
+        }
+
+        .cross-mark::before {
+            content: '\2717';
+            color: red;
+            font-weight: bold;
+        }
+
+        .loading-indicator {
+            border: 6px solid #f3f3f3;
+            border-top: 6px solid #3498db;
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+            animation: spin 5s linear infinite;
+            position: fixed;
+            top: 30%;
+            left: 34%;
+            transform: translate(-50%, -50%);
+            z-index: 9999; /* Переместите загрузочный индикатор поверх других элементов, если необходимо */
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="info-header-1">
+            <p id="tech-post">Технологический пост: ТП 1</p>
+            <p id="current-pal">Текущий номер палеты: -</p>
+        </div>
+        <div class="info-header-2">
+            <p id="printer-status">Статус принтера: -</p>
+            <p></p>
+        </div>
+    </div>
+    
+    <div class="dashboard">
+        <div class="loading-indicator"></div>
+    </div>
+
+    <script>
+        var selectedCard = null;
+        var selectedRow = null;
+
+        function updateDashboard(data) {
+            var dashboard = $('.dashboard');
+            dashboard.empty();
+
+            data.forEach(function (product) {
+                if (selectedCard && selectedCard.NumProd === product.NumProd) {
+                    var card = $('<div class="product-card">');
+                    card.append('<p>№ Изделия: ' + product.NumProd + '</p>');
+                    card.append('<p id="1">ДСК-1 РЗ   B</p>');
+                    card.append('<p id="2">' + product.Product + '</p>');
+                    card.append('<p id="3">' + product.Timestamp + '</p>');
+                    card.append('<p id="4">' + product.Barcode + '</p>');
+                    
+                    console.log(selectedCard)
+
+                    var statusIcon = $('<span>');
+                    statusIcon.addClass(product.StatusPrint ? 'check-mark' : 'cross-mark');
+                    card.append('<p>' + statusIcon[0].outerHTML + '</p>');
+                    card.find('#' + selectedRow).addClass('select-row');
+
+                    if (product.NumProd === 1) {
+                    card.addClass('first-product-card');
+                    } else {
+                        card.addClass('second-product-card');
+                    };
+
+                    dashboard.append(card);
+                };
+                // if (selectedCard && selectedCard.NumProd === product.NumProd) {
+                //     card.addClass('selected-card');
+                //     card.find('#' + selectedRow).addClass('select-row');
+                // } else {
+                //     card.addClass('no-selected-card');
+                // }
+
+                
+
+                
+            });
+        }
+        
+        function connectWebSocket() {
+            var host_port = '{{ host_port }}';
+            var socket = new WebSocket('ws://' + host_port + '/ws/data_updates/');
+
+            socket.onopen = function (event) {
+                console.log('WebSocket connection opened');
+            }
+                
+
+            socket.onmessage = function (event) {
+                var message = JSON.parse(event.data);
+                if (message.type === 'data.updated') {
+                    var data = JSON.parse(message.data)
+                    console.log(data);
+                    if (data.internal_type === 'table_updated') {
+                        updateDashboard(data.event_data);
+                    }
+                    else if (data.internal_type === 'status_updated') {
+                        read_printer_status(socket, data.event_data);
+                    }
+                }
+            };
+
+            socket.onclose = function (event) {
+                console.error('WebSocket connection closed:', event);
+                setTimeout(connectWebSocket, 1000);
+            };
+        }
+
+        function read_printer_status(socket, data) {
+            var socket = socket || null;
+            var printerStatusElement = document.getElementById('printer-status');
+            var currentPalElement = document.getElementById('current-pal');
+            var dashboard = $('.dashboard');
+            
+
+            if (data.status_printer === 'WAIT' || data.status_printer === 'NOT CONNECT') {
+                printerStatusElement.textContent = 'Статус принтера: ' + (data.status_printer === 'WAIT' ? 'Ожидает' : 'Нет соединения');
+                currentPalElement.textContent = 'Текущий номер палеты: -';
+                selectedCard = null;
+                
+                dashboard.empty();
+                dashboard.html('<div class="loading-indicator"></div>');
+
+            } else if (data.status_printer === 'PRINT') {
+                printerStatusElement.textContent = 'Статус принтера: Печатает';
+                currentPalElement.textContent = 'Текущий номер палеты: ' + data.body.PalNo;
+                selectedCard = data.body; 
+                send_command(socket, 'GET DATA');
+
+            } else if (data.status_printer === 'PRINT LINE') {
+                selectedRow = data.body.current_row; 
+                console.log("текущая строка: ", selectedRow)
+                send_command(socket, 'GET DATA');
+                
+            } else if (data.status_printer === 'LAST PAL') {
+                printerStatusElement.textContent = 'Статус принтера: Предыдущая палета';
+                currentPalElement.textContent = 'Текущий номер палеты: -';
+                selectedCard = null;
+                
+                dashboard.empty();
+                dashboard.html('<div class="loading-indicator"></div>');
+            }
+
+            // Always request data after handling the status
+            
+        }
+
+        function send_command(socket, command) {
+            var request_data = {'message': command};
+            try {
+                socket.send(JSON.stringify(request_data));
+            } catch (error) {
+                console.error('Error sending message:', error);
+            }
+        };
+
+        $(document).ready(function () {
+            connectWebSocket();
+        });
+    </script>
+</body>
+
+</html>

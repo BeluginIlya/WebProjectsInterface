@@ -1,0 +1,289 @@
+{% extends 'laboratory/base_lab.html' %}
+
+{% block title %}{{ line_name }}{% endblock %}
+
+{% block content %}
+    <h2>{{ line_name }}</h2>
+    <label for="chamberSelect">Выберите камеру:</label>
+    <select id="chamberSelect">
+        {% for chamber in unique_chambers %}
+            <option value="{{ chamber.chamber }}">{{ chamber.chamber }}</option>
+        {% endfor %}
+    </select>
+    {% if unique_chambers %}
+    <div class="button-container">
+        <button id="startButton" onclick="startDataCollection()">Start</button>
+        <button id="stopButton" onclick="stopDataCollection()">Stop</button>
+    </div>
+    {% endif %}
+
+    <div>
+        <label for="startDate">Выберите день:</label>
+        <input type="date" id="startDate">
+    </div>
+
+    <div class="chart-container">
+        <!-- График температуры -->
+        <canvas id="temperatureChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <!-- График влажности -->
+        <canvas id="humidityChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-dragdata"></script>
+
+    <script>
+        var ctx = document.getElementById('temperatureChart').getContext('2d');
+        var temperatureChart;
+
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                var cookies = document.cookie.split(';');
+                for (var i = 0; i < cookies.length; i++) {
+                    var cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        function fetchData(line_id) {
+            var chamber = $('#chamberSelect').val();  // Получаем выбранную камеру
+            var startDate = $('#startDate').val();  // Получаем выбранную дату
+            var apiUrl = "{% url 'laboratory:get_temperature_data' %}?line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate;
+            $.ajax({
+                url: apiUrl,
+                type: 'GET',
+                success: function (data) {
+                    updateChart(data);
+                },
+                error: function (error) {
+                    console.error('Error fetching data:', error);
+                }
+            });
+        }
+        function updateChart(data) {
+            if (!temperatureChart) {
+                initializeChart(data.labels);  // Передаем labels при первой инициализации
+            }
+
+            const visiblePoints = 288;
+            const emptyPoint = null;
+
+            // Оставляем только последние 16 точек и добавляем 1 пустую
+            const lastLabels = data.labels.slice(-visiblePoints);
+            const lastValues = data.values.slice(-visiblePoints);
+
+            const extendedLabels = [...lastLabels, emptyPoint];
+            const extendedValues = [...lastValues, emptyPoint];
+
+            temperatureChart.data.labels = extendedLabels;
+            temperatureChart.data.datasets[0].data = extendedValues;
+            temperatureChart.update();
+        }
+        function initializeChart(labels) {
+            temperatureChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels.map(label => moment(label, 'HH:mm:ss')),
+                    datasets: [{
+                        label: 'Temperature',
+                        data: [],
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1,
+                        fill: false,
+                        cubicInterpolationMode: 'monotone',
+                        responsive: true, /* график будет масштабирован */
+                        maintainAspectRatio: false
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            time: {
+                                unit: 'second',
+                                tooltipFormat: 'HH:mm:ss'
+                            },
+                        },
+                        y: {
+                            min: 0,
+                            max: 60
+                        }
+                    },
+                    plugins: {
+                        zoom: {
+                            pan: {
+                                enabled: true,
+                                mode: 'x',
+                                speed: 10,
+                            },
+                            zoom: {
+                                wheel: {
+                                    enabled: true,
+                                },
+                                pinch: {
+                                    enabled: true,
+                                },
+                                mode: 'x',
+                            }
+                        },
+                    }
+                }
+            });
+        }
+
+        // Инициализация графика и установка интервала обновления
+        $(document).ready(function () {
+            var line_id = {{ line_id }};
+            fetchData(line_id);
+            setInterval(function () {
+                fetchData(line_id);
+            }, 1000);  // Обновление каждую секунду
+        });
+
+        var ctxHumidity = document.getElementById('humidityChart').getContext('2d');
+        var humidityChart;
+
+        function fetchDataHumidity(line_id) {
+            var chamber = $('#chamberSelect').val();
+            var startDate = $('#startDate').val();
+            var apiUrl = "{% url 'laboratory:get_humidity_data' %}?line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate;
+            $.ajax({
+                url: apiUrl,
+                type: 'GET',
+                success: function (data) {
+                    updateChartHumidity(data);
+                },
+                error: function (error) {
+                    console.error('Error fetching humidity data:', error);
+                }
+            });
+        }
+
+        function updateChartHumidity(data) {
+            if (!humidityChart) {
+                initializeChartHumidity(data.labels);
+            }
+
+            const visiblePoints = 288;
+            const emptyPoint = null;
+
+            const lastLabels = data.labels.slice(-visiblePoints);
+            const lastValues = data.values.slice(-visiblePoints);
+
+            const extendedLabels = [...lastLabels, emptyPoint];
+            const extendedValues = [...lastValues, emptyPoint];
+
+            humidityChart.data.labels = extendedLabels;
+            humidityChart.data.datasets[0].data = extendedValues;
+            humidityChart.update();
+        }
+
+        function initializeChartHumidity(labels) {
+            humidityChart = new Chart(ctxHumidity, {
+                type: 'line',
+                data: {
+                    labels: labels.map(label => moment(label, 'HH:mm:ss')),
+                    datasets: [{
+                        label: 'Humidity',
+                        data: [],
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1,
+                        fill: false,
+                        cubicInterpolationMode: 'monotone',
+                        responsive: true,
+                        maintainAspectRatio: false
+                    }]
+                },
+                options: {
+                    scales: {
+                        x: {
+                            time: {
+                                unit: 'second',
+                                tooltipFormat: 'HH:mm:ss'
+                            },
+                        },
+                        y: {
+                            min: 0,
+                            max: 12
+                        }
+                    },
+                    plugins: {
+                        zoom: {
+                            pan: {
+                                enabled: true,
+                                mode: 'x',
+                                speed: 10,
+                            },
+                            zoom: {
+                                wheel: {
+                                    enabled: true,
+                                },
+                                pinch: {
+                                    enabled: true,
+                                },
+                                mode: 'x',
+                            }
+                        },
+                    }
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            var line_id = {{ line_id }};
+            fetchDataHumidity(line_id);
+            setInterval(function () {
+                fetchDataHumidity(line_id);
+            }, 1000);
+        });
+
+        function startDataCollection() {
+            var line_id = {{ line_id }};
+            var chamber = selectedChamber();
+            var startDate = $('#startDate').val();  // Получаем выбранную дату
+            $.post("{% url 'laboratory:start_plc_data_collection' %}", {
+                line_id: line_id,
+                chamber: chamber,
+                csrfmiddlewaretoken: getCookie('csrftoken'),
+            }, function (data, status) {
+                if (status === 'success' && data.status === 'success') {
+                    $('#startButton').css('background-color', 'green');
+                    $('#stopButton').css('background-color', '');
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
+
+        function stopDataCollection() {
+            var line_id = {{ line_id }};
+            var chamber = selectedChamber();
+            $.post("{% url 'laboratory:stop_plc_data_collection' %}", {
+                line_id: line_id,
+                chamber: chamber,
+                csrfmiddlewaretoken: getCookie('csrftoken'),
+            }, function (data, status) {
+                if (status === 'success' && data.status === 'success') {
+                    $('#startButton').css('background-color', '');
+                    $('#stopButton').css('background-color', 'red');
+                } else {
+                    alert(data.message);
+                }
+            });
+        }
+
+        function selectedChamber() {
+            return $('#chamberSelect').val();
+        }
+    </script>
+{% endblock %}
