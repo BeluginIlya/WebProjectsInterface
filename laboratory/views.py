@@ -27,6 +27,7 @@ def get_sensors_data(request):
     """Получаем данные из серверной бд. Данные проходят интерполяцию для усреднения по сегментам,
         чтобы получить необходимое количество точек для графика"""
     
+    print(request.GET)
     sensor_type = request.GET.get('sensor_type')  # air_temp или humidity
     line_id = request.GET.get('line_id')
     chamber = request.GET.get('chamber')

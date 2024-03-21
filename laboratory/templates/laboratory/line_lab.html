@@ -4,18 +4,15 @@
 
 {% block content %}
     <h2>{{ line_name }}</h2>
-    <label for="chamberSelect">Выберите камеру:</label>
-    <select id="chamberSelect">
-        {% for chamber in unique_chambers %}
-            <option value="{{ chamber.chamber }}">{{ chamber.chamber }}</option>
-        {% endfor %}
+    <label for="paramSelect">Выберите параметр:</label>
+    <select id="paramSelect">
+        <option value="Температура">Температура</option>
+        <option value="Влажность">Влажность</option>
     </select>
-    {% if unique_chambers %}
     <div class="button-container">
         <div id="errorMessage" style="color: red;"></div>
     </div>
-   
-    {% endif %}
+
 
     <div>
         <label for="startDate">От:</label>
@@ -40,6 +37,11 @@
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-dragdata"></script>
 
     <script>
+        var chambers =  new Array();
+        {% for chamber in unique_chambers %}
+            chambers.push('{{ chamber.chamber }}')
+        {% endfor %}
+        console.log(chambers)
         var temperatureChart = null;
         var humidityChart = null;
         var temperature_El = document.getElementById('temperatureChartid');
@@ -48,18 +50,21 @@
             var line_id = {{ line_id }};
             fetchDataAndUpdateCharts(line_id);
 
-            $('#chamberSelect, #startDate, #end_data').change(function () {
+            $('#paramSelect, #startDate, #end_data').change(function () {
                 fetchDataAndUpdateCharts(line_id);
             });
 
             setInterval(async function () {
-                console.log("Start---");
-                var chamber = $('#chamberSelect').val();
-
+                var sensor = $('#paramSelect').val();
+                if (sensor == 'Температура') {
+                    var color = 'rgba(255, 99, 132, 1)';
+                } else {
+                    var color = 'rgba(75, 192, 192, 1)';
+                };
 
                 try {
-                    var temperature_data =  fetchSensorData(line_id, "air_temp");
-                    var humidity_data =  fetchSensorData(line_id, "humidity");
+                    var temperature_data =  fetchSensorData(line_id, chambers[0]);
+                    var humidity_data =  fetchSensorData(line_id, chambers[1]);
 
                     console.log(temperature_data)
 
@@ -67,33 +72,32 @@
                         temperatureChart = initializeChart(
                             temperature_data.labels,
                             temperature_El,
-                            'Температура',
+                            'Камеры: 1, 2',
                             0,
                             80,
-                            'rgba(255, 99, 132, 1)',
+                            color,
                             'temperatureChartid'
                         );
-                        updateChart(temperature_data, temperatureChart);
+                        updateChart(temperature_data, temperatureChart, sensor, 'Камеры: 1, 2');
                     } else {
-                        updateChart(temperature_data, temperatureChart);
+                        updateChart(temperature_data, temperatureChart, sensor, 'Камеры: 1, 2');
                     }
 
                     if (!humidityChart) {
                         humidityChart = initializeChart(
                             humidity_data.labels,
                             humidity_El,
-                            'Влажность',
+                            'Камеры: 3, 4',
                             0,
                             80,
-                            'rgba(75, 192, 192, 1)',
+                            color,
                             'humidityChartid'
                         );
-                        updateChart(humidity_data, humidityChart);
+                        updateChart(humidity_data, humidityChart, sensor, 'Камеры: 3, 4');
                     } else {
-                        updateChart(humidity_data, humidityChart);
+                        updateChart(humidity_data, humidityChart, sensor, 'Камеры: 3, 4');
                     }
 
-                    checkThreadStatus(line_id, chamber);
                 } catch (error) {
                     console.error(error);
                 }
@@ -117,48 +121,60 @@
 
         function fetchDataAndUpdateCharts(line_id) {
             try {
-                    var temperature_data =  fetchSensorData(line_id, "air_temp");
-                    var humidity_data =  fetchSensorData(line_id, "humidity");
+                var sensor = $('#paramSelect').val();
+                console.log("Показания для датчика " + sensor)
+                if (sensor == 'Температура') {
+                    var color = 'rgba(255, 99, 132, 1)';
+                } else {
+                    var color = 'rgba(75, 192, 192, 1)';
+                };
+                var temperature_data =  fetchSensorData(line_id, chambers[0]);
+                var humidity_data =  fetchSensorData(line_id, chambers[1]);
 
-                    console.log("Данные полученые при обновлении", temperature_data)
-                    console.log(temperatureChart)
+                console.log("Данные полученые при обновлении", temperature_data)
+                console.log(temperatureChart)
 
-                    if (!temperatureChart) {
-                        temperatureChart = initializeChart(
-                            temperature_data.labels,
-                            temperature_El,
-                            'Температура',
-                            0,
-                            80,
-                            'rgba(255, 99, 132, 1)',
-                            'temperatureChartid'
-                        );
-                        updateChart(temperature_data, temperatureChart);
-                    } else {
-                        updateChart(temperature_data, temperatureChart);
-                    }
-
-                    if (!humidityChart) {
-                        humidityChart = initializeChart(
-                            humidity_data.labels,
-                            humidity_El,
-                            'Влажность',
-                            0,
-                            80,
-                            'rgba(75, 192, 192, 1)',
-                            'humidityChartid'
-                        );
-                        updateChart(humidity_data, humidityChart);
-                    } else {
-                        updateChart(humidity_data, humidityChart);
-                    }
-                } catch (error) {
-                    console.error(error);
+                if (!temperatureChart) {
+                    temperatureChart = initializeChart(
+                        temperature_data.labels,
+                        temperature_El,
+                        'Камеры: 1, 2',
+                        0,
+                        80,
+                        color,
+                        'temperatureChartid'
+                    );
+                    updateChart(temperature_data, temperatureChart,sensor, 'Камеры: 1, 2');
+                } else {
+                    updateChart(temperature_data, temperatureChart, sensor, 'Камеры: 1, 2');
                 }
+
+                if (!humidityChart) {
+                    humidityChart = initializeChart(
+                        humidity_data.labels,
+                        humidity_El,
+                        'Камеры: 3, 4',
+                        0,
+                        80,
+                        color,
+                        'humidityChartid'
+                    );
+                    updateChart(humidity_data, humidityChart, sensor, );
+                } else {
+                    updateChart(humidity_data, humidityChart, sensor, 'Камеры: 3, 4');
+                }
+            } catch (error) {
+                console.error(error);
+            }
         };
 
-        function fetchSensorData(line_id, sensor) {
-            var chamber = $('#chamberSelect').val();
+        function fetchSensorData(line_id, chamber) {
+            var sensor = $('#paramSelect').val();
+            if (sensor == 'Температура') {
+                sensor = "air_temp";
+            } else {
+                sensor = "humidity";
+            };
             var startDate = $('#startDate').val(); 
             var end_data = $('#end_data').val(); 
             var interpolation_points = 300;
@@ -192,7 +208,7 @@
             return result;
         }
 
-        function updateChart(data, chart) {
+        function updateChart(data, chart, sensor, chamber_name) {
             if (!chart) {
                 console.log('Chart error');
                 return;
@@ -200,6 +216,14 @@
 
             const visiblePoints = 288;
             const emptyPoint = null;
+
+            var color, lineName;
+
+            if (sensor === 'Температура') {
+                color = 'rgba(255, 99, 132, 1)';
+            } else {
+                color = 'rgba(75, 192, 192, 1)';
+            }
 
             if (data.labels && data.values && data.labels.length > 0 && data.values.length > 0) {
                 const totalPoints = data.labels.length;
@@ -218,7 +242,12 @@
                 // Если нет данных, создаем пустой график
                 chart.data.labels = [emptyPoint];
                 chart.data.datasets[0].data = [emptyPoint];
+                
             }
+
+            // lineName = sensor + ' ' + chamber_name;
+            chart.data.datasets[0].borderColor = color;
+            // chart.options.title.text = lineName;
             chart.update();
         }
         

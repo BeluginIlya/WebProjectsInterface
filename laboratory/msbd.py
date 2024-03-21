@@ -58,6 +58,7 @@ class DatabaseLineManager:
                         value_name, value)
 
             self.connection.commit()
+            print("ВНИМАНИЕ! ЗАПИСИ В БД НЕТ. ТЕСТ!!!!")
             return True
         except Exception as e:
             print("ОШбочка при записи:",e)
@@ -119,9 +120,6 @@ class DatabaseLineManager:
         except Exception as e:
             print("Ошибка при удалении данных:", e)
             return False
-
-
-
 
 
 def interpolation_data(data, interpolation_points):

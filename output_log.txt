@@ -1013,3 +1013,22 @@ laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
 2024-03-19 13:29:30,340 disconnecting snap7 client
 2024-03-19 13:29:30,388 connecting to 192.168.15.187:102 rack 0 slot 1
 2024-03-19 13:29:30,468 disconnecting snap7 client
+2024-03-21 13:45:52,476 Процесс для линии 4
+2024-03-21 13:45:52,587 creating snap7 client
+2024-03-21 13:45:52,588 creating snap7 client
+2024-03-21 13:45:52,588 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-21 13:45:52,684 disconnecting snap7 client
+2024-03-21 13:45:52,684 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-21 13:45:52,770 disconnecting snap7 client
+2024-03-21 13:45:53,152 Watching for file changes with StatReloader
+2024-03-21 13:45:53,320 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-21 13:45:53,320 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-21 13:45:53,321 Listening on TCP address 0.0.0.0:8000
+2024-03-21 13:50:52,774 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-21 13:50:52,898 disconnecting snap7 client
+2024-03-21 13:50:52,899 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-21 13:50:52,980 disconnecting snap7 client
+2024-03-21 13:55:52,984 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-21 13:55:53,082 disconnecting snap7 client
+2024-03-21 13:55:53,082 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-21 13:55:53,340 disconnecting snap7 client
