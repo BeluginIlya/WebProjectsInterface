@@ -27,13 +27,13 @@ def get_sensors_data(request):
     """Получаем данные из серверной бд. Данные проходят интерполяцию для усреднения по сегментам,
         чтобы получить необходимое количество точек для графика"""
     
-    print(request.GET)
     sensor_type = request.GET.get('sensor_type')  # air_temp или humidity
     line_id = request.GET.get('line_id')
     chamber = request.GET.get('chamber')
     start_date = request.GET.get('start_date')
     end_data = request.GET.get('end_data')
     interpolation_points = int(request.GET.get('interpolation_points'))
+    print(f"Запрос на получения данных {line_id}, {chamber}")
 
     if not end_data or end_data == "undefined":
         end_data = datetime.now()
@@ -47,8 +47,7 @@ def get_sensors_data(request):
     else:
         start_date = datetime.strptime(start_date, '%Y-%m-%d')
 
-    plc = PLC.objects.get(line_id=line_id, chamber=chamber)
-    value_name = f'{plc.PLCName}_{plc.chamber}_{sensor_type}'
+    value_name =  generate_value_name(line_id, chamber, sensor_type)
 
     db_manager = DatabaseLineManager(line_id)
     sensor_data = db_manager.get_data(value_name, start_time=start_date,
@@ -62,7 +61,26 @@ def get_sensors_data(request):
         data = {'labels': formatted_timestamps, 'values': new_values, 'error': ''}
     else:
         data = {'labels': None, 'values': None, 'error': "Данные отсутствуют"}
+        
     return JsonResponse(data)
+
+
+def generate_value_name(line_id, chamber, sensor_type)->str:
+    """Т. к. мы работаем с различной структурой в БД, то делаем КОСТЫЛЬ, пока не установят датчик.
+        Формируем имя переменной по запрошенному chamber только по температуре. 
+        В js сформировали так, что если нету chambers, то генерируются 1_2 и 3_4, 
+        т.к. и плк к ним нет."""
+
+    if int(line_id) == 4:
+        plc = PLC.objects.get(line_id=line_id, chamber=chamber)
+        return f'{plc.PLCName}_{plc.chamber}_{sensor_type}'
+    else:
+        if sensor_type == 'air_temp':
+            id = '1' if '1_2' in chamber else '2'
+            print(f'id = {id}')
+            return 'LZS2_STATUS_LR.REGALTEMPERATUR' + id 
+        else:
+            return ''
 
 
 def get_lines(request):

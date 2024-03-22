@@ -6,12 +6,13 @@ class BaseForWrite(models.Model):
     base = models.CharField(max_length=100)
     user = models.CharField(max_length=100)
     password = models.CharField(max_length=100)
+    nameBaseTable = models.CharField(max_length=100)
     
 
 class Line(models.Model):
     LineName = models.CharField(max_length=60)
-    nameBaseTable = models.CharField(max_length=100)
     TimeSecUpdate = models.IntegerField()
+    base = models.ForeignKey(BaseForWrite, on_delete=models.DO_NOTHING)
 
 class PLC(models.Model):
     PLCName = models.CharField(max_length=100)

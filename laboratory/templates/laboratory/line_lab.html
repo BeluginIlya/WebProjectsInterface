@@ -41,6 +41,9 @@
         {% for chamber in unique_chambers %}
             chambers.push('{{ chamber.chamber }}')
         {% endfor %}
+        if (!chambers.length) {
+            chambers = ['1_2', '3_4']
+        } 
         console.log(chambers)
         var temperatureChart = null;
         var humidityChart = null;
@@ -177,7 +180,7 @@
             };
             var startDate = $('#startDate').val(); 
             var end_data = $('#end_data').val(); 
-            var interpolation_points = 300;
+            var interpolation_points = 500;
             var data_request = "line_id=" + line_id + "&chamber=" + chamber + "&start_date=" + startDate + "&sensor_type=" + sensor +
                                 "&end_data=" + end_data + "&interpolation_points=" + interpolation_points;
 

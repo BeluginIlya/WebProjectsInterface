@@ -4,7 +4,7 @@
 a = Analysis(
     ['Start.py'],
     pathex=[],
-    binaries=[('C:\\Users\\belug\\Documents\\PythonProjects\\WebInterfaceForProjects\\venv\\Lib\\site-packages\\snap7\\lib\\snap7.dll', '.')],
+    binaries=[('C:\\Users\\belug\\Documents\\PythonProjects\\new_webMONARH\\venv\\Lib\\site-packages\\snap7\\lib\\snap7.dll', '.')],
     datas=[('db.sqlite3', '.')],
     hiddenimports=[],
     hookspath=[],

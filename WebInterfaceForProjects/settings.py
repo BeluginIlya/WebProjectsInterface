@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'main',
     'kmp260_line_1',
     'laboratory',
-    # 'plc'
+    'plc'
 ]
 
 MIDDLEWARE = [

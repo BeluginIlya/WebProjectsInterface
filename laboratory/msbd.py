@@ -1,5 +1,6 @@
 import pyodbc
 import time
+import functools
 import numpy as np
 from datetime import datetime, timedelta
 import threading
@@ -16,19 +17,26 @@ class DatabaseLineManager:
                 cls._instances[line_id] = super(DatabaseLineManager, cls).__new__(cls)
                 cls._instances[line_id].line_id = line_id
                 cls._instances[line_id].line = Line.objects.get(id=line_id)
-                cls._instances[line_id].table = cls._instances[line_id].line.nameBaseTable
+                cls._instances[line_id].base_for_write = cls._instances[line_id].line.base
+                cls._instances[line_id].table = cls._instances[line_id].base_for_write.nameBaseTable
                 cls._instances[line_id].connection = None
             return cls._instances[line_id]
         
-
-    def __init__(self, line_id):
-        self.line_id = line_id
-        self.line = Line.objects.get(id=line_id)
-        self.table = self.line.nameBaseTable
+    
+    def init_line_for_db(func):
+        @functools.wraps(func)
+        def wrapper_decorator(self, value_name, start_time, end_time):
+            if int(self.line_id) != 4:
+                result = self.get_data_type_2(value_name, start_time, end_time)
+            else:
+                result = func(self, value_name, start_time, end_time)
+            return result
+        return wrapper_decorator
+        
 
     def connect(self):
         try:
-            base_for_write = BaseForWrite.objects.get(id=1)
+            base_for_write = self.base_for_write
             connection_string = f"DRIVER={{SQL Server}};SERVER={base_for_write.server};DATABASE={base_for_write.base};UID={base_for_write.user};PWD={base_for_write.password};"
             self.connection = pyodbc.connect(connection_string)
             print("Подключение к базе данных установлено")
@@ -58,14 +66,13 @@ class DatabaseLineManager:
                         value_name, value)
 
             self.connection.commit()
-            print("ВНИМАНИЕ! ЗАПИСИ В БД НЕТ. ТЕСТ!!!!")
             return True
         except Exception as e:
             print("ОШбочка при записи:",e)
             self.disconnect
             return False
 
-
+    @init_line_for_db
     def get_data(self, value_name, start_time, end_time):
         """ Для получения данных инициализируется отдельный объект класса и новое подключение"""
 
@@ -100,12 +107,44 @@ class DatabaseLineManager:
             print(f"Ошибка при подключении к бд: {e}")
             return []
         
-    def delete_old_data(self, days):
+    
+    def get_data_type_2(self, value_name, start_time, end_time):
+        """Временная функция, которая используется через декоратор к основной get_data
+           в случае использование таблицы с другой структурой, т.к. к программе ПЛК доступа пока что нет,
+           и данные мы получаем с другого датчика"""
+
+        if value_name:
+            if not self.connection:
+                print(f"Нет подключения к бд: {self.connection}")
+                self.connect()
+            
+            cursor = self.connection.cursor()
+
+            cursor.execute(f"""
+                SELECT
+                    Value,
+                    Timestamp,
+                    ROW_NUMBER() OVER (ORDER BY Timestamp) as RowNum
+                FROM
+                    {self.table}
+                WHERE
+                    CAST(Name AS varchar(max)) = ? AND TimeStamp >= ? AND Timestamp <= ?
+            """, value_name, start_time, end_time)
+            print(f"Данные на промежутке от {start_time} to {end_time} Получены для {value_name}")
+
+            result = cursor.fetchall()
+            return result
+        else:
+            print(f"Данные для влажности отсутствуют")
+            return []
+        
+        
+    def delete_old_data(self, days=180):
         try:
             if not self.connection:
                 print(f"Нет подключения к бд: {self.connection}")
                 self.connect()
-            date = datetime.now() - timedelta(days=180)
+            date = datetime.now() - timedelta(days)
             cursor = self.connection.cursor()
 
             cursor.execute(f"""
@@ -115,7 +154,7 @@ class DatabaseLineManager:
             """, date)
 
             self.connection.commit()
-            print(f"Удалены данные, записанные ранее, чем {date}")
+            print(f"Удалены данные до {date}")
             return True
         except Exception as e:
             print("Ошибка при удалении данных:", e)

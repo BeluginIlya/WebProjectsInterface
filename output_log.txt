@@ -1032,3 +1032,25 @@ laboratory.models.PLC.DoesNotExist: PLC matching query does not exist.
 2024-03-21 13:55:53,082 disconnecting snap7 client
 2024-03-21 13:55:53,082 connecting to 192.168.15.187:102 rack 0 slot 1
 2024-03-21 13:55:53,340 disconnecting snap7 client
+2024-03-22 14:28:16,592 Процесс для линии 4
+2024-03-22 14:28:16,621 Watching for file changes with StatReloader
+2024-03-22 14:28:16,765 creating snap7 client
+2024-03-22 14:28:16,766 creating snap7 client
+2024-03-22 14:28:16,771 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-22 14:28:16,826 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-22 14:28:16,826 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-22 14:28:16,827 Listening on TCP address 0.0.0.0:8000
+2024-03-22 14:28:16,857 disconnecting snap7 client
+2024-03-22 14:28:16,870 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-22 14:28:16,949 disconnecting snap7 client
+2024-03-22 14:29:58,221 Процесс для линии 4
+2024-03-22 14:29:58,305 creating snap7 client
+2024-03-22 14:29:58,306 creating snap7 client
+2024-03-22 14:29:58,306 connecting to 192.168.15.186:102 rack 0 slot 1
+2024-03-22 14:29:58,394 disconnecting snap7 client
+2024-03-22 14:29:58,408 connecting to 192.168.15.187:102 rack 0 slot 1
+2024-03-22 14:29:58,543 disconnecting snap7 client
+2024-03-22 14:29:58,994 Watching for file changes with StatReloader
+2024-03-22 14:29:59,115 HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2024-03-22 14:29:59,116 Configuring endpoint tcp:port=8000:interface=0.0.0.0
+2024-03-22 14:29:59,116 Listening on TCP address 0.0.0.0:8000
